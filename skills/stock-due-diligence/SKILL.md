@@ -83,4 +83,4 @@ These are research labels, not guaranteed buy/sell instructions.
 
 ## Review metadata
 
-Include workflow version `0.1.6` in the report metadata or notes when useful. Include the analysis as-of date and dates of key sources.
+Include workflow version `1.0.0` in the report metadata or notes when useful. Include the analysis as-of date and dates of key sources.
