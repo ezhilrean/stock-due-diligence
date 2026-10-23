@@ -27,7 +27,12 @@
           "Research this company's lawsuits, regulatory actions, accounting, governance, and cybersecurity disclosures.",
           "Prepare a sourced stock due-diligence report with financials, risks, valuation, and open questions."
         ]
+      },
+      "publication": {
+        "release_notes": "Version 0.1.6: Corrected publisher metadata for public submission preparation and retained evidence-based research safeguards, source attribution, allegation distinctions, and explicit uncertainty reporting."
       }
     }
-  }
+  },
+  "homepage": "https://github.com/ezhilrean/stock-due-diligence",
+  "repository": "https://github.com/ezhilrean/stock-due-diligence"
 }
