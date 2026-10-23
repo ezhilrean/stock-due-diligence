@@ -25,5 +25,14 @@
     "financial-analysis",
     "risk"
   ],
-  "skills": "./skills"
+  "skills": "./skills",
+  "homepage": "https://github.com/ezhilrean/stock-due-diligence",
+  "repository": "https://github.com/ezhilrean/stock-due-diligence",
+  "extensions": {
+    "com.openai": {
+      "publication": {
+        "release_notes": "Version 0.1.6: Corrected publisher metadata for public submission preparation and retained evidence-based research safeguards, source attribution, allegation distinctions, and explicit uncertainty reporting."
+      }
+    }
+  }
 }
