@@ -38,8 +38,8 @@
         "supportURL": "https://stock-due-diligence.chatgpt-plugin.developer.mesprk.com/support/",
         "privacyPolicyURL": "https://stock-due-diligence.chatgpt-plugin.developer.mesprk.com/privacy/",
         "termsOfServiceURL": "https://stock-due-diligence.chatgpt-plugin.developer.mesprk.com/terms/",
-        "logo": "assets/icon.svg",
-        "composerIcon": "assets/icon.svg"
+        "logo": "assets/icon.png",
+        "composerIcon": "assets/icon.png"
       }
     }
   }
