@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "stock-due-diligence",
-  "version": "0.1.6",
+  "version": "1.0.0",
   "description": "Evidence-based stock due diligence covering company fundamentals, financial health, legal and regulatory exposure, fraud and transparency risks, cybersecurity, governance, valuation, and downside scenarios.",
   "author": {
     "name": "ezhillarasan ramalingham"
@@ -29,7 +29,7 @@
         ]
       },
       "publication": {
-        "release_notes": "Version 0.1.6: Corrected publisher metadata for public submission preparation and retained evidence-based research safeguards, source attribution, allegation distinctions, and explicit uncertainty reporting."
+        "release_notes": "Version 1.0.0: First public-submission release. Publisher metadata corrected to the individual developer identity; listing copy clarifies evidence-based research scope and financial-analysis limitations. Research safeguards, source attribution, allegation distinctions, and explicit uncertainty reporting are retained."
       }
     }
   },
