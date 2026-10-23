@@ -1,7 +1,7 @@
 # Public Plugins Directory Submission Preparation
 
 **Target publisher:** ezhillarasan ramalingham (individual / personal developer)  
-**Source branch:** `public-directory-submission`  
+**Source branch:** `public-directory-submission_v1.0.0`  
 **Package version prepared here:** `1.0.0`  
 **Publication status:** Not submitted; not approved; not published.
 
@@ -10,10 +10,13 @@ Official instructions:
 - [Plugin guidelines](https://developers.openai.com/plugins/plugin-guidelines)
 - [Package your plugin](https://developers.openai.com/plugins/build/plugins)
 
-## Metadata corrections in this branch
+## Packaging-guide alignment and metadata corrections in this branch
+
+The supplied copy of the official packaging guide (pages 5–7) describes a portable plugin rooted at `plugin.json`, with optional `skills/`, optional `mcp.json`, optional `.codex-plugin/plugin.json` compatibility metadata, and optional assets. It says OpenAI-specific presentation and marketplace metadata belongs under `extensions.com.openai` in the root `plugin.json`. This package is skill-based and does not declare an MCP server, so it should not invent an MCP endpoint or credentials.
 
 - Replaced the inaccurate author value `OpenAI` with the publisher name supplied by the developer: `ezhillarasan ramalingham`.
 - Aligned the listing's `developerName` with that supplied publisher name.
+- Added the known repository and homepage URLs to both manifests; did not invent a license or personal profile URL.
 - Bumped both manifests from `0.1.5` to `1.0.0` for this public-submission preparation update.
 - Kept the existing skill instructions requiring verifiable sources, careful treatment of allegations, explicit unknowns and limitations, and no guaranteed investment outcomes.
 - Added public submission release notes.
