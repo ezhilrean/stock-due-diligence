@@ -1,10 +1,10 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "stock-due-diligence",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Evidence-based stock due diligence covering company fundamentals, financial health, legal and regulatory exposure, fraud and transparency risks, cybersecurity, governance, valuation, and downside scenarios.",
   "author": {
-    "name": "OpenAI"
+    "name": "ezhillarasan ramalingham"
   },
   "keywords": [
     "stocks",
@@ -19,7 +19,7 @@
         "displayName": "Stock Due Diligence",
         "shortDescription": "Investigate stocks and risks",
         "longDescription": "Research publicly traded companies before investment. Analyze financial quality, legal and regulatory issues, fraud allegations, transparency, cybersecurity, management, valuation, and downside scenarios using verifiable sources.",
-        "developerName": "Stock Analysis",
+        "developerName": "ezhillarasan ramalingham",
         "category": "Finance",
         "capabilities": [],
         "defaultPrompt": [
