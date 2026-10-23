@@ -2,7 +2,7 @@
   "interface": {
     "displayName": "Stock Due Diligence",
     "shortDescription": "Investigate stocks and risks",
-    "longDescription": "Research publicly traded companies before investment. Analyze financial quality, legal and regulatory issues, fraud allegations, transparency, cybersecurity, management, valuation, and downside scenarios using verifiable sources.",
+    "longDescription": "Research publicly traded companies before making investment decisions. Review business fundamentals, financial statements, debt and liquidity, legal and regulatory matters, fraud allegations, disclosure quality, cybersecurity disclosures, management and governance, valuation assumptions, and downside scenarios. The workflow prioritizes primary sources, cites evidence, distinguishes allegations from established findings, and identifies material gaps and unverified items. Results support independent research; they do not guarantee investment performance or constitute personalized financial advice. Verify important claims against original sources and consider qualified professional advice where appropriate.",
     "developerName": "ezhillarasan ramalingham",
     "category": "Finance",
     "capabilities": [],
