@@ -2,7 +2,7 @@
 
 **Target publisher:** ezhillarasan ramalingham (individual / personal developer)  
 **Source branch:** `public-directory-submission`  
-**Package version prepared here:** `0.1.6`  
+**Package version prepared here:** `1.0.0`  
 **Publication status:** Not submitted; not approved; not published.
 
 Official instructions:
@@ -14,7 +14,7 @@ Official instructions:
 
 - Replaced the inaccurate author value `OpenAI` with the publisher name supplied by the developer: `ezhillarasan ramalingham`.
 - Aligned the listing's `developerName` with that supplied publisher name.
-- Bumped both manifests from `0.1.5` to `0.1.6` for this public-submission preparation update.
+- Bumped both manifests from `0.1.5` to `1.0.0` for this public-submission preparation update.
 - Kept the existing skill instructions requiring verifiable sources, careful treatment of allegations, explicit unknowns and limitations, and no guaranteed investment outcomes.
 - Added public submission release notes.
 
