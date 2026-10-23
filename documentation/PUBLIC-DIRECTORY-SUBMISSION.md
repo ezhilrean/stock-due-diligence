@@ -1,9 +1,9 @@
 # Public Plugins Directory Submission Preparation
 
 **Target publisher:** ezhillarasan ramalingham (individual / personal developer)  
-**Source branch:** `public-directory-submission_v1.0.0`  
-**Package version prepared here:** `1.0.0`  
-**Publication status:** Not submitted; not approved; not published.
+**Source branch:** `v1.0.1`  
+**Package version prepared here:** `1.0.1`  
+**Publication status:** GitHub source changes committed to `v1.0.1`; public website deployment and DNS are pending; not submitted to the public plugin directory.
 
 Official instructions:
 - [Upload and submit your plugin](https://developers.openai.com/plugins/deploy/submission)
@@ -39,7 +39,9 @@ Research publicly traded companies before making investment decisions. Review bu
 - [ ] Confirm the listing copy accurately describes the package and its actual behavior.
 - [ ] Inspect the ZIP contents; include the root `plugin.json`, `.codex-plugin/plugin.json`, skill files, and all referenced reference documents. Include only files required for the package; do not include internal working notes unless intended for users.
 - [ ] Keep credentials, tokens, private information, and reviewer credentials out of the ZIP.
-- [ ] Add an app logo/icon as required by the current portal. The current source package does not include icon assets; do not reference nonexistent paths. Use the portal's supported icon upload or add valid image assets and matching manifest paths.
+- [ ] Add an app logo/icon as required by the current portal. A 256 × 256 PNG icon is included at `assets/icon.png`; confirm the portal's current icon size requirements before submission.
+- [x] Commerce is deferred for v1.0.1; see `documentation/COMMERCE-IMPLEMENTATION-PLAN.md` before planning a future paid release.
+- [ ] Publish and verify the four URLs. Follow `documentation/PUBLIC-WEBSITE-DEPLOYMENT.md` for GitHub Pages and DNS setup.
 - [ ] Skills-only plugins do not require MCP server review test cases or a demo recording, according to the current submission instructions. If you later add MCP functionality, follow the separate MCP review requirements.
 - [ ] Upload the ZIP in the official Plugins dashboard. Resolve required validation errors and wait for required skill scans to complete.
 - [ ] Review all findings. The portal's actual findings are authoritative; this checklist does not guarantee acceptance.
@@ -61,4 +63,4 @@ Research publicly traded companies before making investment decisions. Review bu
 
 ## Important distinction
 
-A GitHub branch or release is not a public Plugins Directory listing. This branch prepares source files only. Submission, automated checks, review, approval, and the final **Publish plugin** action must be completed in the official portal by the verified developer.
+A GitHub branch or release is not a public Plugins Directory listing. The `v1.0.1` branch contains the website source and package preparation files, but GitHub Pages/DNS deployment has not been verified. Submission, automated checks, review, approval, and the final **Publish plugin** action must be completed in the official portal by the verified developer.
