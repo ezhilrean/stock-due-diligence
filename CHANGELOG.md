@@ -7,7 +7,8 @@
 - Added a 256 × 256 PNG plugin icon and referenced it in listing metadata.
 - Added `documentation/COMMERCE-IMPLEMENTATION-PLAN.md`; commerce is explicitly deferred and not implemented in this release.
 - Updated the portable and compatibility manifests to version 1.0.1 and the intended public listing URLs.
-- Website publication remains dependent on GitHub Pages configuration and DNS; URLs must be tested before submission.
+- The developer confirmed all four public listing URLs are accessible on 2026-10-24.
+- Added public-directory review prompts and refreshed the submission checklist in the `public-directory-submission_v1.0.1` branch.
 
 ## 1.0.0 — Public-submission preparation
 
