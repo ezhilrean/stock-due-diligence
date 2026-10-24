@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "stock-due-diligence",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Evidence-based stock due diligence covering company fundamentals, financial health, legal and regulatory exposure, fraud and transparency risks, cybersecurity, governance, valuation, and downside scenarios.",
   "author": {
     "name": "ezhillarasan ramalingham"
@@ -26,10 +26,23 @@
           "Investigate this stock before investment. Analyze financials, legal risks, valuation, sources, and downside scenarios.",
           "Research this company's lawsuits, regulatory actions, accounting, governance, and cybersecurity disclosures.",
           "Prepare a sourced stock due-diligence report with financials, risks, valuation, and open questions."
+        ],
+        "websiteURL": "https://stock-due-diligence.chatgpt-plugin.developer.mesprk.com/",
+        "supportURL": "https://stock-due-diligence.chatgpt-plugin.developer.mesprk.com/support/",
+        "privacyPolicyURL": "https://stock-due-diligence.chatgpt-plugin.developer.mesprk.com/privacy/",
+        "termsOfServiceURL": "https://stock-due-diligence.chatgpt-plugin.developer.mesprk.com/terms/",
+        "logo": "assets/icon.png",
+        "composerIcon": "assets/icon.png"
+      },
+      "review": {
+        "prompts": [
+          "Investigate this stock before investment. Analyze financials, legal risks, valuation, sources, and downside scenarios.",
+          "Research this company's lawsuits, regulatory actions, accounting, governance, and cybersecurity disclosures.",
+          "Prepare a sourced stock due-diligence report with financials, risks, valuation, and open questions."
         ]
       },
       "publication": {
-        "release_notes": "Version 1.0.0: First public-submission release. Publisher metadata corrected to the individual developer identity; listing copy clarifies evidence-based research scope and financial-analysis limitations. Research safeguards, source attribution, allegation distinctions, and explicit uncertainty reporting are retained."
+        "release_notes": "Version 1.0.1: Added public website/support/privacy/terms page source and deployment configuration, an icon asset, updated listing URLs, and documented a deferred commerce implementation plan. Commerce is not implemented in this release."
       }
     }
   },

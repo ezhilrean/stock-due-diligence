@@ -13,7 +13,7 @@
     ]
   },
   "name": "stock-due-diligence",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Evidence-based stock due diligence covering company fundamentals, financial health, legal and regulatory exposure, fraud and transparency risks, cybersecurity, governance, valuation, and downside scenarios.",
   "author": {
     "name": "ezhillarasan ramalingham"
@@ -31,7 +31,15 @@
   "extensions": {
     "com.openai": {
       "publication": {
-        "release_notes": "Version 1.0.0: First public-submission release. Publisher metadata corrected to the individual developer identity; listing copy clarifies evidence-based research scope and financial-analysis limitations. Research safeguards, source attribution, allegation distinctions, and explicit uncertainty reporting are retained."
+        "release_notes": "Version 1.0.1: Public listing metadata, website/support/privacy/terms pages, icon, and deployment instructions prepared. Commerce is deferred and not implemented in this release."
+      },
+      "interface": {
+        "websiteURL": "https://stock-due-diligence.chatgpt-plugin.developer.mesprk.com/",
+        "supportURL": "https://stock-due-diligence.chatgpt-plugin.developer.mesprk.com/support/",
+        "privacyPolicyURL": "https://stock-due-diligence.chatgpt-plugin.developer.mesprk.com/privacy/",
+        "termsOfServiceURL": "https://stock-due-diligence.chatgpt-plugin.developer.mesprk.com/terms/",
+        "logo": "assets/icon.png",
+        "composerIcon": "assets/icon.png"
       }
     }
   }
