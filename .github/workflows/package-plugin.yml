@@ -36,6 +36,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: stock-due-diligence-feature-sec-edgar-improvements-v1.0.3
-          path: dist/stock-due-diligence-feature-sec-edgar-improvements-v1.0.3.zip
+          path: dist/stock-due-diligence-feature-sec-edgar-improvements-v*.zip
           if-no-files-found: error
           retention-days: 14
