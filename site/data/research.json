@@ -1,0 +1,1187 @@
+{
+  "generated_at": "2026-10-27T19:52:42.260920+00:00",
+  "source": "U.S. SEC EDGAR public submissions and XBRL companyfacts",
+  "companies": [
+    {
+      "ticker": "AAPL",
+      "name": "Apple Inc.",
+      "cik": "0000320193",
+      "sic": "3571",
+      "sic_description": "Electronic Computers",
+      "fiscal_year_end": "0926",
+      "website": "",
+      "sec_url": "https://www.sec.gov/edgar/browse/?CIK=0000320193",
+      "filings": [
+        {
+          "form": "4",
+          "filing_date": "2026-10-22",
+          "report_date": "2026-10-20",
+          "description": "FORM 4",
+          "accession_number": "0001140361-26-040540",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126040540/xslF345X06/form4.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-19",
+          "report_date": "2026-10-15",
+          "description": "FORM 4",
+          "accession_number": "0001140361-26-040127",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126040127/xslF345X06/form4.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-19",
+          "report_date": "2026-10-15",
+          "description": "FORM 4",
+          "accession_number": "0001140361-26-040126",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126040126/xslF345X06/form4.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-15",
+          "report_date": "2026-10-13",
+          "description": "FORM 4",
+          "accession_number": "0001140361-26-039785",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126039785/xslF345X06/form4.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-08",
+          "report_date": "2026-10-06",
+          "description": "FORM 4",
+          "accession_number": "0001140361-26-039158",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126039158/xslF345X06/form4.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-05",
+          "report_date": "2026-10-01",
+          "description": "FORM 4",
+          "accession_number": "0001140361-26-038674",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126038674/xslF345X06/form4.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-05",
+          "report_date": "2026-10-01",
+          "description": "FORM 4",
+          "accession_number": "0001140361-26-038672",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126038672/xslF345X06/form4.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-05",
+          "report_date": "2026-10-01",
+          "description": "FORM 4",
+          "accession_number": "0001140361-26-038669",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126038669/xslF345X06/form4.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-05",
+          "report_date": "2026-10-01",
+          "description": "FORM 4",
+          "accession_number": "0001140361-26-038667",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126038667/xslF345X06/form4.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-01",
+          "report_date": "2026-09-29",
+          "description": "FORM 4",
+          "accession_number": "0001140361-26-038307",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126038307/xslF345X06/form4.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-29",
+          "report_date": "2026-09-27",
+          "description": "FORM 4",
+          "accession_number": "0001140361-26-038028",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126038028/xslF345X06/form4.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-29",
+          "report_date": "2026-09-27",
+          "description": "FORM 4",
+          "accession_number": "0001140361-26-038027",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126038027/xslF345X06/form4.xml"
+        }
+      ],
+      "metrics": {
+        "revenue": {
+          "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "unit": "USD",
+          "value": 416161000000,
+          "period_end": "2025-09-27",
+          "filed": "2025-10-31",
+          "form": "10-K",
+          "accession_number": "0000320193-25-000079"
+        },
+        "net_income": {
+          "concept": "NetIncomeLoss",
+          "label": "Net Income (Loss) Attributable to Parent",
+          "unit": "USD",
+          "value": 112010000000,
+          "period_end": "2025-09-27",
+          "filed": "2025-10-31",
+          "form": "10-K",
+          "accession_number": "0000320193-25-000079"
+        },
+        "total_assets": {
+          "concept": "Assets",
+          "label": "Assets",
+          "unit": "USD",
+          "value": 359241000000,
+          "period_end": "2025-09-27",
+          "filed": "2025-10-31",
+          "form": "10-K",
+          "accession_number": "0000320193-25-000079"
+        },
+        "total_liabilities": {
+          "concept": "Liabilities",
+          "label": "Liabilities",
+          "unit": "USD",
+          "value": 285508000000,
+          "period_end": "2025-09-27",
+          "filed": "2025-10-31",
+          "form": "10-K",
+          "accession_number": "0000320193-25-000079"
+        },
+        "cash_and_equivalents": {
+          "concept": "CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and Cash Equivalents, at Carrying Value",
+          "unit": "USD",
+          "value": 35934000000,
+          "period_end": "2025-09-27",
+          "filed": "2025-10-31",
+          "form": "10-K",
+          "accession_number": "0000320193-25-000079"
+        },
+        "operating_cash_flow": {
+          "concept": "NetCashProvidedByUsedInOperatingActivities",
+          "label": "Net Cash Provided by (Used in) Operating Activities",
+          "unit": "USD",
+          "value": 111482000000,
+          "period_end": "2025-09-27",
+          "filed": "2025-10-31",
+          "form": "10-K",
+          "accession_number": "0000320193-25-000079"
+        }
+      }
+    },
+    {
+      "ticker": "MSFT",
+      "name": "MICROSOFT CORP",
+      "cik": "0000789019",
+      "sic": "7372",
+      "sic_description": "Services-Prepackaged Software",
+      "fiscal_year_end": "0630",
+      "website": "",
+      "sec_url": "https://www.sec.gov/edgar/browse/?CIK=0000789019",
+      "filings": [
+        {
+          "form": "DEF 14A",
+          "filing_date": "2026-10-21",
+          "report_date": "2026-12-08",
+          "description": "DEF 14A",
+          "accession_number": "0001193125-26-427849",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526427849/d61756ddef14a.htm"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-15",
+          "report_date": "2026-10-15",
+          "description": "STATEMENT OF CHANGES IN BENEFICIAL OWNERSHIP OF SECURITIES",
+          "accession_number": "0000789019-26-000228",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000228/xslF345X06/form4.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-14",
+          "report_date": "2026-10-13",
+          "description": "STATEMENT OF CHANGES IN BENEFICIAL OWNERSHIP OF SECURITIES",
+          "accession_number": "0000789019-26-000226",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000226/xslF345X06/form4.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-17",
+          "report_date": "2026-09-15",
+          "description": "STATEMENT OF CHANGES IN BENEFICIAL OWNERSHIP OF SECURITIES",
+          "accession_number": "0000789019-26-000224",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000224/xslF345X06/form4.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-17",
+          "report_date": "2026-09-15",
+          "description": "STATEMENT OF CHANGES IN BENEFICIAL OWNERSHIP OF SECURITIES",
+          "accession_number": "0000789019-26-000223",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000223/xslF345X06/form4.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-17",
+          "report_date": "2026-09-15",
+          "description": "STATEMENT OF CHANGES IN BENEFICIAL OWNERSHIP OF SECURITIES",
+          "accession_number": "0000789019-26-000222",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000222/xslF345X06/form4.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-17",
+          "report_date": "2026-09-15",
+          "description": "STATEMENT OF CHANGES IN BENEFICIAL OWNERSHIP OF SECURITIES",
+          "accession_number": "0000789019-26-000221",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000221/xslF345X06/form4.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-17",
+          "report_date": "2026-09-15",
+          "description": "STATEMENT OF CHANGES IN BENEFICIAL OWNERSHIP OF SECURITIES",
+          "accession_number": "0000789019-26-000220",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000220/xslF345X06/form4.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-15",
+          "report_date": "2026-09-15",
+          "description": "STATEMENT OF CHANGES IN BENEFICIAL OWNERSHIP OF SECURITIES",
+          "accession_number": "0000789019-26-000214",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000214/xslF345X06/form4.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-15",
+          "report_date": "2026-09-15",
+          "description": "STATEMENT OF CHANGES IN BENEFICIAL OWNERSHIP OF SECURITIES",
+          "accession_number": "0000789019-26-000213",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000213/xslF345X06/form4.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-15",
+          "report_date": "2026-09-14",
+          "description": "STATEMENT OF CHANGES IN BENEFICIAL OWNERSHIP OF SECURITIES",
+          "accession_number": "0000789019-26-000212",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000212/xslF345X06/form4.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-11",
+          "report_date": "2026-09-10",
+          "description": "STATEMENT OF CHANGES IN BENEFICIAL OWNERSHIP OF SECURITIES",
+          "accession_number": "0000789019-26-000208",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000208/xslF345X06/form4.xml"
+        }
+      ],
+      "metrics": {
+        "revenue": {
+          "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "unit": "USD",
+          "value": 331839000000,
+          "period_end": "2026-06-30",
+          "filed": "2026-07-29",
+          "form": "10-K",
+          "accession_number": "0001193125-26-323660"
+        },
+        "net_income": {
+          "concept": "NetIncomeLoss",
+          "label": "Net Income (Loss) Attributable to Parent",
+          "unit": "USD",
+          "value": 133749000000,
+          "period_end": "2026-06-30",
+          "filed": "2026-07-29",
+          "form": "10-K",
+          "accession_number": "0001193125-26-323660"
+        },
+        "total_assets": {
+          "concept": "Assets",
+          "label": "Assets",
+          "unit": "USD",
+          "value": 758376000000,
+          "period_end": "2026-06-30",
+          "filed": "2026-07-29",
+          "form": "10-K",
+          "accession_number": "0001193125-26-323660"
+        },
+        "total_liabilities": {
+          "concept": "Liabilities",
+          "label": "Liabilities",
+          "unit": "USD",
+          "value": 315989000000,
+          "period_end": "2026-06-30",
+          "filed": "2026-07-29",
+          "form": "10-K",
+          "accession_number": "0001193125-26-323660"
+        },
+        "cash_and_equivalents": {
+          "concept": "CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and Cash Equivalents, at Carrying Value",
+          "unit": "USD",
+          "value": 20935000000,
+          "period_end": "2026-06-30",
+          "filed": "2026-07-29",
+          "form": "10-K",
+          "accession_number": "0001193125-26-323660"
+        },
+        "operating_cash_flow": {
+          "concept": "NetCashProvidedByUsedInOperatingActivities",
+          "label": "Net Cash Provided by (Used in) Operating Activities",
+          "unit": "USD",
+          "value": 182935000000,
+          "period_end": "2026-06-30",
+          "filed": "2026-07-29",
+          "form": "10-K",
+          "accession_number": "0001193125-26-323660"
+        }
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA CORP",
+      "cik": "0001045810",
+      "sic": "3674",
+      "sic_description": "Semiconductors & Related Devices",
+      "fiscal_year_end": "0131",
+      "website": "",
+      "sec_url": "https://www.sec.gov/edgar/browse/?CIK=0001045810",
+      "filings": [
+        {
+          "form": "4",
+          "filing_date": "2026-10-09",
+          "report_date": "2026-10-07",
+          "description": "FORM 4",
+          "accession_number": "0001197647-26-000011",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119764726000011/xslF345X06/wk-form4_1791579847.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-23",
+          "report_date": "2026-09-21",
+          "description": "FORM 4",
+          "accession_number": "0001696841-26-000014",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000169684126000014/xslF345X06/wk-form4_1790196985.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-22",
+          "report_date": "2026-09-18",
+          "description": "FORM 4",
+          "accession_number": "0001199039-26-000016",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000016/xslF345X06/wk-form4_1790110579.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-18",
+          "report_date": "2026-09-16",
+          "description": "FORM 4",
+          "accession_number": "0001243821-26-000007",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000124382126000007/xslF345X06/wk-form4_1789766132.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-18",
+          "report_date": "2026-09-16",
+          "description": "FORM 4",
+          "accession_number": "0001283854-26-000010",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000128385426000010/xslF345X06/wk-form4_1789766082.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-18",
+          "report_date": "2026-09-16",
+          "description": "FORM 4",
+          "accession_number": "0001696841-26-000012",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000169684126000012/xslF345X06/wk-form4_1789766007.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-18",
+          "report_date": "2026-09-16",
+          "description": "FORM 4",
+          "accession_number": "0001588670-26-000014",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000014/xslF345X06/wk-form4_1789765959.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-18",
+          "report_date": "2026-09-16",
+          "description": "FORM 4",
+          "accession_number": "0001197649-26-000012",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119764926000012/xslF345X06/wk-form4_1789765856.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-11",
+          "report_date": "2026-09-09",
+          "description": "FORM 4",
+          "accession_number": "0002152188-26-000005",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000215218826000005/xslF345X06/wk-form4_1789160684.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-08",
+          "report_date": "2026-09-03",
+          "description": "FORM 4",
+          "accession_number": "0001199039-26-000014",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000014/xslF345X06/wk-form4_1788901755.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-04",
+          "report_date": "2026-09-02",
+          "description": "FORM 4",
+          "accession_number": "0001197647-26-000009",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119764726000009/xslF345X06/wk-form4_1788555631.xml"
+        },
+        {
+          "form": "8-K",
+          "filing_date": "2026-09-03",
+          "report_date": "2026-09-02",
+          "description": "8-K",
+          "accession_number": "0001045810-26-000078",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078/nvda-20260902.htm"
+        }
+      ],
+      "metrics": {
+        "revenue": {
+          "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "unit": "USD",
+          "value": 26914000000,
+          "period_end": "2022-01-30",
+          "filed": "2022-03-18",
+          "form": "10-K",
+          "accession_number": "0001045810-22-000036"
+        },
+        "net_income": {
+          "concept": "NetIncomeLoss",
+          "label": "Net Income (Loss) Attributable to Parent",
+          "unit": "USD",
+          "value": 120067000000,
+          "period_end": "2026-01-25",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "accession_number": "0001045810-26-000021"
+        },
+        "total_assets": {
+          "concept": "Assets",
+          "label": "Assets",
+          "unit": "USD",
+          "value": 206803000000,
+          "period_end": "2026-01-25",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "accession_number": "0001045810-26-000021"
+        },
+        "total_liabilities": {
+          "concept": "Liabilities",
+          "label": "Liabilities",
+          "unit": "USD",
+          "value": 49510000000,
+          "period_end": "2026-01-25",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "accession_number": "0001045810-26-000021"
+        },
+        "cash_and_equivalents": {
+          "concept": "CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and Cash Equivalents, at Carrying Value",
+          "unit": "USD",
+          "value": 10605000000,
+          "period_end": "2026-01-25",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "accession_number": "0001045810-26-000021"
+        },
+        "operating_cash_flow": {
+          "concept": "NetCashProvidedByUsedInOperatingActivities",
+          "label": "Net Cash Provided by (Used in) Operating Activities",
+          "unit": "USD",
+          "value": 102718000000,
+          "period_end": "2026-01-25",
+          "filed": "2026-02-25",
+          "form": "10-K",
+          "accession_number": "0001045810-26-000021"
+        }
+      }
+    },
+    {
+      "ticker": "AMZN",
+      "name": "AMAZON COM INC",
+      "cik": "0001018724",
+      "sic": "5961",
+      "sic_description": "Retail-Catalog & Mail-Order Houses",
+      "fiscal_year_end": "1231",
+      "website": "",
+      "sec_url": "https://www.sec.gov/edgar/browse/?CIK=0001018724",
+      "filings": [
+        {
+          "form": "4",
+          "filing_date": "2026-10-05",
+          "report_date": "2026-10-01",
+          "description": "FORM 4",
+          "accession_number": "0001936006-26-000026",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000193600626000026/xslF345X06/wk-form4_1791230893.xml"
+        },
+        {
+          "form": "8-K",
+          "filing_date": "2026-09-14",
+          "report_date": "2026-09-14",
+          "description": "FORM 8-K",
+          "accession_number": "0001104659-26-107526",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926107526/tm2624614d5_8k.htm"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-09",
+          "report_date": "2026-09-08",
+          "description": "FORM 4",
+          "accession_number": "0001284323-26-000002",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000128432326000002/xslF345X06/wk-form4_1788987268.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-09",
+          "report_date": "2026-09-08",
+          "description": "FORM 4",
+          "accession_number": "0001595602-26-000007",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000159560226000007/xslF345X06/wk-form4_1788986939.xml"
+        },
+        {
+          "form": "8-K",
+          "filing_date": "2026-09-09",
+          "report_date": "2026-09-08",
+          "description": "8-K",
+          "accession_number": "0001018724-26-000036",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000036/amzn-20260908.htm"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-03",
+          "report_date": "2026-09-01",
+          "description": "FORM 4",
+          "accession_number": "0001936006-26-000024",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000193600626000024/xslF345X06/wk-form4_1788468119.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-08-27",
+          "report_date": "2026-08-25",
+          "description": "FORM 4",
+          "accession_number": "0001043298-26-000002",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000104329826000002/xslF345X06/wk-form4_1787862279.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-08-25",
+          "report_date": "2026-08-21",
+          "description": "FORM 4",
+          "accession_number": "0001374545-26-000010",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000137454526000010/xslF345X06/wk-form4_1787692115.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-08-25",
+          "report_date": "2026-08-21",
+          "description": "FORM 4",
+          "accession_number": "0002024813-26-000010",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000202481326000010/xslF345X06/wk-form4_1787691690.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-08-25",
+          "report_date": "2026-08-21",
+          "description": "FORM 4",
+          "accession_number": "0001936006-26-000022",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000193600626000022/xslF345X06/wk-form4_1787691176.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-08-25",
+          "report_date": "2026-08-21",
+          "description": "FORM 4",
+          "accession_number": "0001557979-26-000008",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000155797926000008/xslF345X06/wk-form4_1787690696.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-08-25",
+          "report_date": "2026-08-21",
+          "description": "FORM 4",
+          "accession_number": "0001639902-26-000008",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000163990226000008/xslF345X06/wk-form4_1787690246.xml"
+        }
+      ],
+      "metrics": {
+        "revenue": {
+          "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "unit": "USD",
+          "value": 716924000000,
+          "period_end": "2025-12-31",
+          "filed": "2026-02-06",
+          "form": "10-K",
+          "accession_number": "0001018724-26-000004"
+        },
+        "net_income": {
+          "concept": "NetIncomeLoss",
+          "label": "Net Income (Loss) Attributable to Parent",
+          "unit": "USD",
+          "value": 77670000000,
+          "period_end": "2025-12-31",
+          "filed": "2026-02-06",
+          "form": "10-K",
+          "accession_number": "0001018724-26-000004"
+        },
+        "total_assets": {
+          "concept": "Assets",
+          "label": "Assets",
+          "unit": "USD",
+          "value": 818042000000,
+          "period_end": "2025-12-31",
+          "filed": "2026-02-06",
+          "form": "10-K",
+          "accession_number": "0001018724-26-000004"
+        },
+        "total_liabilities": null,
+        "cash_and_equivalents": {
+          "concept": "CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and Cash Equivalents, at Carrying Value",
+          "unit": "USD",
+          "value": 86810000000,
+          "period_end": "2025-12-31",
+          "filed": "2026-02-06",
+          "form": "10-K",
+          "accession_number": "0001018724-26-000004"
+        },
+        "operating_cash_flow": {
+          "concept": "NetCashProvidedByUsedInOperatingActivities",
+          "label": "Net Cash Provided by (Used in) Operating Activities",
+          "unit": "USD",
+          "value": 139514000000,
+          "period_end": "2025-12-31",
+          "filed": "2026-02-06",
+          "form": "10-K",
+          "accession_number": "0001018724-26-000004"
+        }
+      }
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc.",
+      "cik": "0001652044",
+      "sic": "7370",
+      "sic_description": "Services-Computer Programming, Data Processing, Etc.",
+      "fiscal_year_end": "1231",
+      "website": "",
+      "sec_url": "https://www.sec.gov/edgar/browse/?CIK=0001652044",
+      "filings": [
+        {
+          "form": "4",
+          "filing_date": "2026-10-15",
+          "report_date": "2026-10-13",
+          "description": "4",
+          "accession_number": "0001193125-26-423187",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526423187/xslF345X06/ownership.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-02",
+          "report_date": "2026-09-30",
+          "description": "4",
+          "accession_number": "0001193125-26-412669",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526412669/xslF345X06/ownership.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-29",
+          "report_date": "2026-09-25",
+          "description": "4",
+          "accession_number": "0001193125-26-408019",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526408019/xslF345X06/ownership.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-29",
+          "report_date": "2026-09-25",
+          "description": "4",
+          "accession_number": "0001193125-26-408016",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526408016/xslF345X06/ownership.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-29",
+          "report_date": "2026-09-25",
+          "description": "4",
+          "accession_number": "0001193125-26-408014",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526408014/xslF345X06/ownership.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-29",
+          "report_date": "2026-09-25",
+          "description": "4",
+          "accession_number": "0001193125-26-408009",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526408009/xslF345X06/ownership.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-29",
+          "report_date": "2026-09-25",
+          "description": "4",
+          "accession_number": "0001193125-26-408007",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526408007/xslF345X06/ownership.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-29",
+          "report_date": "2026-09-25",
+          "description": "4",
+          "accession_number": "0001193125-26-408004",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526408004/xslF345X06/ownership.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-16",
+          "report_date": "2026-09-14",
+          "description": "4",
+          "accession_number": "0001193125-26-393517",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526393517/xslF345X06/ownership.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-16",
+          "report_date": "2026-09-14",
+          "description": "4",
+          "accession_number": "0001193125-26-393515",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526393515/xslF345X06/ownership.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-16",
+          "report_date": "2026-09-14",
+          "description": "4",
+          "accession_number": "0001193125-26-393513",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526393513/xslF345X06/ownership.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-16",
+          "report_date": "2026-09-14",
+          "description": "4",
+          "accession_number": "0001193125-26-393511",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526393511/xslF345X06/ownership.xml"
+        }
+      ],
+      "metrics": {
+        "revenue": {
+          "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "unit": "USD",
+          "value": 350018000000,
+          "period_end": "2024-12-31",
+          "filed": "2025-02-05",
+          "form": "10-K",
+          "accession_number": "0001652044-25-000014"
+        },
+        "net_income": {
+          "concept": "NetIncomeLoss",
+          "label": "Net Income (Loss) Attributable to Parent",
+          "unit": "USD",
+          "value": 132170000000,
+          "period_end": "2025-12-31",
+          "filed": "2026-02-05",
+          "form": "10-K",
+          "accession_number": "0001652044-26-000018"
+        },
+        "total_assets": {
+          "concept": "Assets",
+          "label": "Assets",
+          "unit": "USD",
+          "value": 595281000000,
+          "period_end": "2025-12-31",
+          "filed": "2026-02-05",
+          "form": "10-K",
+          "accession_number": "0001652044-26-000018"
+        },
+        "total_liabilities": {
+          "concept": "Liabilities",
+          "label": "Liabilities",
+          "unit": "USD",
+          "value": 180016000000,
+          "period_end": "2025-12-31",
+          "filed": "2026-02-05",
+          "form": "10-K",
+          "accession_number": "0001652044-26-000018"
+        },
+        "cash_and_equivalents": {
+          "concept": "CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and Cash Equivalents, at Carrying Value",
+          "unit": "USD",
+          "value": 30708000000,
+          "period_end": "2025-12-31",
+          "filed": "2026-02-05",
+          "form": "10-K",
+          "accession_number": "0001652044-26-000018"
+        },
+        "operating_cash_flow": {
+          "concept": "NetCashProvidedByUsedInOperatingActivities",
+          "label": "Net Cash Provided by (Used in) Operating Activities",
+          "unit": "USD",
+          "value": 164713000000,
+          "period_end": "2025-12-31",
+          "filed": "2026-02-05",
+          "form": "10-K",
+          "accession_number": "0001652044-26-000018"
+        }
+      }
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms, Inc.",
+      "cik": "0001326801",
+      "sic": "7370",
+      "sic_description": "Services-Computer Programming, Data Processing, Etc.",
+      "fiscal_year_end": "1231",
+      "website": "",
+      "sec_url": "https://www.sec.gov/edgar/browse/?CIK=0001326801",
+      "filings": [
+        {
+          "form": "10-Q",
+          "filing_date": "2026-10-22",
+          "report_date": "2026-09-30",
+          "description": "10-Q",
+          "accession_number": "0001628280-26-066773",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-21",
+          "report_date": "2026-10-19",
+          "description": "FORM 4",
+          "accession_number": "0000950103-26-015980",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326015980/xslF345X06/ownership.xml"
+        },
+        {
+          "form": "8-K",
+          "filing_date": "2026-10-21",
+          "report_date": "2026-10-19",
+          "description": "8-K",
+          "accession_number": "0001628280-26-066700",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-20261019.htm"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-14",
+          "report_date": "2026-10-12",
+          "description": "FORM 4",
+          "accession_number": "0000950103-26-015598",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326015598/xslF345X06/ownership.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-07",
+          "report_date": "2026-10-05",
+          "description": "FORM 4",
+          "accession_number": "0000950103-26-015324",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326015324/xslF345X06/ownership.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-30",
+          "report_date": "2026-09-28",
+          "description": "FORM 4",
+          "accession_number": "0000950103-26-014886",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326014886/xslF345X06/ownership.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-28",
+          "report_date": "2026-09-24",
+          "description": "FORM 4",
+          "accession_number": "0000950103-26-014647",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326014647/xslF345X06/ownership.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-23",
+          "report_date": "2026-09-21",
+          "description": "FORM 4",
+          "accession_number": "0000950103-26-014403",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326014403/xslF345X06/ownership.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-23",
+          "report_date": "2026-09-21",
+          "description": "FORM 4",
+          "accession_number": "0000950103-26-014402",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326014402/xslF345X06/ownership.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-17",
+          "report_date": "2026-09-15",
+          "description": "FORM 4",
+          "accession_number": "0000950103-26-014140",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326014140/xslF345X06/ownership.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-16",
+          "report_date": "2026-09-14",
+          "description": "FORM 4",
+          "accession_number": "0000950103-26-014061",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326014061/xslF345X06/ownership.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-11",
+          "report_date": "2026-09-09",
+          "description": "FORM 4",
+          "accession_number": "0000950103-26-013860",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326013860/xslF345X06/ownership.xml"
+        }
+      ],
+      "metrics": {
+        "revenue": {
+          "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "unit": "USD",
+          "value": 200966000000,
+          "period_end": "2025-12-31",
+          "filed": "2026-01-29",
+          "form": "10-K",
+          "accession_number": "0001628280-26-003942"
+        },
+        "net_income": {
+          "concept": "NetIncomeLoss",
+          "label": "Net Income (Loss) Attributable to Parent",
+          "unit": "USD",
+          "value": 60458000000,
+          "period_end": "2025-12-31",
+          "filed": "2026-01-29",
+          "form": "10-K",
+          "accession_number": "0001628280-26-003942"
+        },
+        "total_assets": {
+          "concept": "Assets",
+          "label": "Assets",
+          "unit": "USD",
+          "value": 366021000000,
+          "period_end": "2025-12-31",
+          "filed": "2026-01-29",
+          "form": "10-K",
+          "accession_number": "0001628280-26-003942"
+        },
+        "total_liabilities": {
+          "concept": "Liabilities",
+          "label": "Liabilities",
+          "unit": "USD",
+          "value": 148778000000,
+          "period_end": "2025-12-31",
+          "filed": "2026-01-29",
+          "form": "10-K",
+          "accession_number": "0001628280-26-003942"
+        },
+        "cash_and_equivalents": {
+          "concept": "CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and Cash Equivalents, at Carrying Value",
+          "unit": "USD",
+          "value": 35873000000,
+          "period_end": "2025-12-31",
+          "filed": "2026-01-29",
+          "form": "10-K",
+          "accession_number": "0001628280-26-003942"
+        },
+        "operating_cash_flow": {
+          "concept": "NetCashProvidedByUsedInOperatingActivities",
+          "label": "Net Cash Provided by (Used in) Operating Activities",
+          "unit": "USD",
+          "value": 115800000000,
+          "period_end": "2025-12-31",
+          "filed": "2026-01-29",
+          "form": "10-K",
+          "accession_number": "0001628280-26-003942"
+        }
+      }
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "cik": "0001318605",
+      "sic": "3711",
+      "sic_description": "Motor Vehicles & Passenger Car Bodies",
+      "fiscal_year_end": "1231",
+      "website": "",
+      "sec_url": "https://www.sec.gov/edgar/browse/?CIK=0001318605",
+      "filings": [
+        {
+          "form": "10-Q",
+          "filing_date": "2026-10-22",
+          "report_date": "2026-09-30",
+          "description": "10-Q",
+          "accession_number": "0001628280-26-066775",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm"
+        },
+        {
+          "form": "8-K",
+          "filing_date": "2026-10-21",
+          "report_date": "2026-10-21",
+          "description": "8-K",
+          "accession_number": "0001628280-26-066738",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/tsla-20261021.htm"
+        },
+        {
+          "form": "DEF 14A",
+          "filing_date": "2026-10-19",
+          "report_date": "2026-12-03",
+          "description": "DEF 14A",
+          "accession_number": "0001104659-26-116700",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926116700/tm267596-1_def14a.htm"
+        },
+        {
+          "form": "8-K",
+          "filing_date": "2026-10-02",
+          "report_date": "2026-10-02",
+          "description": "8-K",
+          "accession_number": "0001628280-26-064366",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026064366/tsla-20261002.htm"
+        },
+        {
+          "form": "8-K",
+          "filing_date": "2026-09-29",
+          "report_date": "2026-09-29",
+          "description": "8-K",
+          "accession_number": "0001628280-26-063820",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026063820/tsla-20260929.htm"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-09-09",
+          "report_date": "2026-09-05",
+          "description": "OWNERSHIP DOCUMENT",
+          "accession_number": "0001104659-26-106432",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926106432/xslF345X06/tm2625055d1_4seq1.xml"
+        },
+        {
+          "form": "10-Q",
+          "filing_date": "2026-07-23",
+          "report_date": "2026-06-30",
+          "description": "10-Q",
+          "accession_number": "0001628280-26-049270",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026049270/tsla-20260630.htm"
+        },
+        {
+          "form": "8-K",
+          "filing_date": "2026-07-22",
+          "report_date": "2026-07-22",
+          "description": "8-K",
+          "accession_number": "0001628280-26-049213",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026049213/tsla-20260722.htm"
+        },
+        {
+          "form": "8-K",
+          "filing_date": "2026-07-02",
+          "report_date": "2026-07-02",
+          "description": "8-K",
+          "accession_number": "0001628280-26-046717",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026046717/tsla-20260702.htm"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-06-17",
+          "report_date": "2026-06-16",
+          "description": "OWNERSHIP DOCUMENT",
+          "accession_number": "0001104659-26-075213",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926075213/xslF345X06/tm2618092-2_4seq1.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-06-09",
+          "report_date": "2026-06-05",
+          "description": "OWNERSHIP DOCUMENT",
+          "accession_number": "0001104659-26-071970",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926071970/xslF345X06/tm2617365-1_4seq1.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-05-15",
+          "report_date": "2026-05-13",
+          "description": "OWNERSHIP DOCUMENT",
+          "accession_number": "0001104659-26-062860",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926062860/xslF345X06/tm2614845-1_4seq1.xml"
+        }
+      ],
+      "metrics": {
+        "revenue": {
+          "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "unit": "USD",
+          "value": 94827000000,
+          "period_end": "2025-12-31",
+          "filed": "2026-01-29",
+          "form": "10-K",
+          "accession_number": "0001628280-26-003952"
+        },
+        "net_income": {
+          "concept": "NetIncomeLoss",
+          "label": "Net Income (Loss) Attributable to Parent",
+          "unit": "USD",
+          "value": 3794000000,
+          "period_end": "2025-12-31",
+          "filed": "2026-01-29",
+          "form": "10-K",
+          "accession_number": "0001628280-26-003952"
+        },
+        "total_assets": {
+          "concept": "Assets",
+          "label": "Assets",
+          "unit": "USD",
+          "value": 137806000000,
+          "period_end": "2025-12-31",
+          "filed": "2026-01-29",
+          "form": "10-K",
+          "accession_number": "0001628280-26-003952"
+        },
+        "total_liabilities": {
+          "concept": "Liabilities",
+          "label": "Liabilities",
+          "unit": "USD",
+          "value": 54941000000,
+          "period_end": "2025-12-31",
+          "filed": "2026-01-29",
+          "form": "10-K",
+          "accession_number": "0001628280-26-003952"
+        },
+        "cash_and_equivalents": {
+          "concept": "CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and Cash Equivalents, at Carrying Value",
+          "unit": "USD",
+          "value": 16513000000,
+          "period_end": "2025-12-31",
+          "filed": "2026-01-29",
+          "form": "10-K",
+          "accession_number": "0001628280-26-003952"
+        },
+        "operating_cash_flow": {
+          "concept": "NetCashProvidedByUsedInOperatingActivities",
+          "label": "Net Cash Provided by (Used in) Operating Activities",
+          "unit": "USD",
+          "value": 14747000000,
+          "period_end": "2025-12-31",
+          "filed": "2026-01-29",
+          "form": "10-K",
+          "accession_number": "0001628280-26-003952"
+        }
+      }
+    }
+  ]
+}
