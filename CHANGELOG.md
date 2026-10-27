@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.3 — SEC EDGAR review candidate
+
+- Improved the read-only SEC EDGAR workflow, exact ticker/company-name identity resolution, financial concept alias handling, filing-period and unit reporting, and explicit missing-data/source limitations.
+- Maintained all existing due-diligence coverage and the complete skill reference set, including checklist, definition of done, deliverable template, playbook, and research standards.
+- Added five positive and three negative MCP review test cases in the server-specific MCP configuration.
+- Corrected review-case `tools_triggered` values to strings as required by the current submission schema and preserved the previously configured demo recording URL.
+- Added a repeatable ZIP builder and GitHub Actions workflow that validates the upload package and includes the complete skill tree.
+- The plugin remains a review candidate until the live endpoint, challenge token, tool discovery, test cases, recording, portal validation, and submission checks are confirmed. No portal approval or public listing is claimed.
+
 ## 1.0.2 — MCP release candidate
 
 - Bumped the portable and Codex compatibility manifests to 1.0.2.
