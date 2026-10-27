@@ -1,0 +1,41 @@
+name: Build and validate plugin upload ZIP
+
+on:
+  push:
+    branches:
+      - feature/sec-edgar-improvements
+    paths:
+      - "plugin.json"
+      - "mcp.json"
+      - ".codex-plugin/**"
+      - "skills/**"
+      - "assets/**"
+      - "README.md"
+      - "CHANGELOG.md"
+      - "documentation/**"
+      - "scripts/build_plugin_zip.py"
+      - ".github/workflows/package-plugin.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out selected branch
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build and validate complete plugin ZIP
+        run: python scripts/build_plugin_zip.py
+      - name: Upload ZIP artifact for Developer Portal
+        uses: actions/upload-artifact@v4
+        with:
+          name: stock-due-diligence-feature-sec-edgar-improvements-v1.0.3
+          path: dist/stock-due-diligence-feature-sec-edgar-improvements-v1.0.3.zip
+          if-no-files-found: error
+          retention-days: 14
