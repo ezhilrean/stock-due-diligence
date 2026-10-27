@@ -31,7 +31,7 @@
   "extensions": {
     "com.openai": {
       "publication": {
-        "release_notes": "Version 1.0.1: Listing and site source prepared; commerce deferred and documented for a future release."
+        "release_notes": "Version 1.0.1: Public listing metadata, website/support/privacy/terms pages, icon, and deployment instructions prepared. Commerce is deferred and not implemented in this release."
       },
       "interface": {
         "websiteURL": "https://stock-due-diligence.chatgpt-plugin.developer.mesprk.com/",
