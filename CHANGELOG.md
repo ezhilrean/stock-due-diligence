@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.4 — Private plugin release updated; public review candidate
+
+- Uploaded the complete feature-preserving package to the existing private plugin draft; the plugin service automatically advanced the version to 1.0.4.
+- Aligned both GitHub manifests with the portal's current private release version.
+- Preserved the five positive and three negative MCP review cases, complete skill/reference tree, website URLs, and safety regression documentation.
+- Public submission, live test execution, recording accessibility, and public directory approval remain unconfirmed.
+
 ## 1.0.3 — SEC EDGAR review candidate
 
 - Improved the read-only SEC EDGAR workflow, exact ticker/company-name identity resolution, financial concept alias handling, filing-period and unit reporting, and explicit missing-data/source limitations.
