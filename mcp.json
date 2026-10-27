@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "stock-due-diligence-sec-edgar": {
+      "type": "streamable-http",
+      "url": "https://mcp.stock-due-diligence.chatgpt-plugin.developer.mesprk.com/mcp"
+    }
+  }
+}
