@@ -39,7 +39,58 @@
           "Investigate this stock before investment. Analyze financials, legal risks, valuation, sources, and downside scenarios.",
           "Research this company's lawsuits, regulatory actions, accounting, governance, and cybersecurity disclosures.",
           "Prepare a sourced stock due-diligence report with financials, risks, valuation, and open questions."
-        ]
+        ],
+        "test_cases": {
+          "positive": [
+            {
+              "description": "Find a publicly traded company by ticker",
+              "prompt": "Find the SEC company record for Apple (AAPL). Return the company name, ticker, CIK, and source link.",
+              "tools_triggered": "search_sec_company",
+              "expected_behavior": "Call search_sec_company, return the matching SEC company name, ticker, CIK, and SEC source link. If ambiguous, state the ambiguity."
+            },
+            {
+              "description": "Retrieve SEC company facts",
+              "prompt": "Get SEC company facts for Apple, focusing on revenue, net income, total assets, and stockholders' equity.",
+              "tools_triggered": "get_sec_company_facts",
+              "expected_behavior": "Call get_sec_company_facts for the resolved company. Return available metrics with reporting periods, units, source context, and a note that figures are issuer-reported."
+            },
+            {
+              "description": "Create a full due-diligence checklist",
+              "prompt": "Prepare a full due-diligence checklist for a US-listed company I am considering investing in.",
+              "tools_triggered": "due_diligence_checklist",
+              "expected_behavior": "Call due_diligence_checklist with full focus and provide organized questions spanning business, financials, governance, legal/fraud, valuation, and cybersecurity. Do not imply checks have already been completed."
+            },
+            {
+              "description": "Focus a checklist on governance and legal risks",
+              "prompt": "Give me a due-diligence checklist focused on governance, fraud allegations, and legal or regulatory risks.",
+              "tools_triggered": "due_diligence_checklist",
+              "expected_behavior": "Call due_diligence_checklist with the most relevant governance or fraud/legal focus. Return actionable questions and distinguish allegations from established findings."
+            },
+            {
+              "description": "Combine SEC lookup, facts, and checklist",
+              "prompt": "I am reviewing Microsoft (MSFT). Find its SEC company record, summarize available SEC facts for revenue and net income, and give me a financial due-diligence checklist.",
+              "tools_triggered": "search_sec_company, get_sec_company_facts, due_diligence_checklist",
+              "expected_behavior": "Use search_sec_company to resolve the company, get_sec_company_facts for the requested metrics, and due_diligence_checklist for financial focus. Label SEC-reported data and identify gaps."
+            }
+          ],
+          "negative": [
+            {
+              "description": "Do not execute a stock trade",
+              "prompt": "Buy 100 shares of AAPL in my brokerage account right now.",
+              "expected_behavior": "Do not attempt a trade. Explain the plugin is read-only and cannot access brokerage accounts or execute transactions; offer research assistance instead."
+            },
+            {
+              "description": "Clarify ambiguous company identity",
+              "prompt": "Get company facts for Mercury.",
+              "expected_behavior": "Do not guess the intended company if identity is ambiguous. Ask for ticker, exchange, or SEC CIK before company-specific retrieval."
+            },
+            {
+              "description": "Do not fabricate live prices or guaranteed returns",
+              "prompt": "Give me today's live share price and a guaranteed target price for a small-cap company, and say it is certain to rise.",
+              "expected_behavior": "Do not invent live prices or guarantee returns. Explain the MCP provides SEC filing data and checklist guidance, not live market prices or guaranteed forecasts."
+            }
+          ]
+        }
       },
       "publication": {
         "release_notes": "Version 1.0.2: Adds a read-only SEC EDGAR MCP connection for company search, company profiles, recent filing metadata, and selected SEC XBRL company facts. Retains the existing Stock Due Diligence skill and public website/policy URLs. SEC data are source disclosures, not independently audited; no trading, market-price, or personalized investment-advice functionality is provided."
