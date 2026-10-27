@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "stock-due-diligence",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Evidence-based stock due diligence covering company fundamentals, financial health, legal and regulatory exposure, fraud and transparency risks, cybersecurity, governance, valuation, and downside scenarios.",
   "author": {
     "name": "ezhillarasan ramalingham"
@@ -36,13 +36,13 @@
       },
       "review": {
         "prompts": [
-          "Investigate this stock before investment. Analyze financials, legal risks, valuation, sources, and downside scenarios.",
-          "Research this company's lawsuits, regulatory actions, accounting, governance, and cybersecurity disclosures.",
-          "Prepare a sourced stock due-diligence report with financials, risks, valuation, and open questions."
+          "Use Stock Due Diligence to find Apple Inc. (AAPL) in SEC EDGAR. Show its official company name, ticker, CIK, and source link.",
+          "Using Stock Due Diligence, retrieve Apple's SEC company facts. Summarize the latest available revenue, net income, total assets, and stockholders' equity. Include reporting periods, units, and official SEC source links. State clearly if a metric is unavailable.",
+          "Use Stock Due Diligence to create a financial due-diligence checklist for Apple. Organize the questions by revenue quality, profitability, balance sheet, cash flow, governance, legal risks, valuation, and cybersecurity. Distinguish research questions from verified findings."
         ]
       },
       "publication": {
-        "release_notes": "Version 1.0.2: Adds a read-only SEC EDGAR MCP connection for company search, company profiles, recent filing metadata, and selected SEC XBRL company facts. Retains the existing Stock Due Diligence skill and public website/policy URLs. SEC data are source disclosures, not independently audited; no trading, market-price, or personalized investment-advice functionality is provided."
+        "release_notes": "Version 1.0.3: Improves the read-only SEC EDGAR research workflow, clarifies company-identity resolution, filing-period and unit handling, source verification, concept-alias caveats, and separation of research questions from verified findings. Preserves the existing Stock Due Diligence identity, website, support, privacy and terms URLs. No trading, live-market-price, or personalized investment-advice functionality."
       }
     }
   },
