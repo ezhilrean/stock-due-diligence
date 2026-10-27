@@ -10,42 +10,31 @@
             {
               "description": "Resolve a ticker to the exact SEC registrant.",
               "prompt": "Find Apple Inc. (AAPL) in SEC EDGAR and return official name, ticker, CIK, and source URL.",
-              "tools_triggered": [
-                "search_sec_company"
-              ],
+              "tools_triggered": "search_sec_company",
               "expected_behavior": "Prefer exact ticker matches; return the legal name, padded CIK and official SEC source URL."
             },
             {
               "description": "Retrieve financial facts with units and filing context.",
               "prompt": "Retrieve Apple's SEC company facts for revenue, net income, assets and stockholders' equity. Include periods, units, filing dates and sources; state unavailable metrics explicitly.",
-              "tools_triggered": [
-                "search_sec_company",
-                "get_sec_company_facts"
-              ],
+              "tools_triggered": "search_sec_company, get_sec_company_facts",
               "expected_behavior": "Resolve identity before facts. Preserve reported concept, units, fiscal periods and filing metadata; disclose unavailable concepts and caveats."
             },
             {
               "description": "Generate checklist without implying completed diligence.",
               "prompt": "Create a due diligence checklist for Apple covering revenue quality, profitability, balance sheet, cash flow, governance, legal risks, valuation and cybersecurity.",
-              "tools_triggered": [
-                "due_diligence_checklist"
-              ],
+              "tools_triggered": "due_diligence_checklist",
               "expected_behavior": "Provide research questions and source guidance, distinguishing the checklist from verified company findings."
             },
             {
               "description": "Clarify an ambiguous company name.",
               "prompt": "Find Mercury and retrieve its SEC financial facts.",
-              "tools_triggered": [
-                "search_sec_company"
-              ],
+              "tools_triggered": "search_sec_company",
               "expected_behavior": "Present possible registrants and ask for ticker, exchange or CIK before facts retrieval when identity remains ambiguous."
             },
             {
               "description": "Handle unsupported metrics without fabrication.",
               "prompt": "For SEC CIK 0000320193, retrieve Revenue and EarningsPerShareBasic; state if either is unavailable.",
-              "tools_triggered": [
-                "get_sec_company_facts"
-              ],
+              "tools_triggered": "get_sec_company_facts",
               "expected_behavior": "Return available facts and units/period metadata. Explicitly mark missing concepts; never fabricate a value or silently substitute a metric."
             }
           ],
