@@ -1,0 +1,12 @@
+{
+  "description": "Companies refreshed by the scheduled SEC EDGAR workflow. Edit this list to customize the static research dataset.",
+  "tickers": [
+    "AAPL",
+    "MSFT",
+    "NVDA",
+    "AMZN",
+    "GOOGL",
+    "META",
+    "TSLA"
+  ]
+}
