@@ -47,5 +47,24 @@
     }
   },
   "homepage": "https://github.com/ezhilrean/stock-due-diligence",
-  "repository": "https://github.com/ezhilrean/stock-due-diligence"
+  "repository": "https://github.com/ezhilrean/stock-due-diligence",
+  "interface": {
+    "displayName": "Stock Due Diligence",
+    "shortDescription": "Investigate stocks and risks",
+    "longDescription": "Research publicly traded companies before making investment decisions. Review business fundamentals, financial statements, debt and liquidity, legal and regulatory matters, fraud allegations, disclosure quality, cybersecurity disclosures, management and governance, valuation assumptions, and downside scenarios. The workflow prioritizes primary sources, cites evidence, distinguishes allegations from established findings, and identifies material gaps and unverified items. Results support independent research; they do not guarantee investment performance or constitute personalized financial advice. Verify important claims against original sources and consider qualified professional advice where appropriate.",
+    "developerName": "ezhillarasan ramalingham",
+    "category": "Finance",
+    "capabilities": [],
+    "defaultPrompt": [
+      "Investigate this stock before investment. Analyze financials, legal risks, valuation, sources, and downside scenarios.",
+      "Research this company's lawsuits, regulatory actions, accounting, governance, and cybersecurity disclosures.",
+      "Prepare a sourced stock due-diligence report with financials, risks, valuation, and open questions."
+    ],
+    "websiteURL": "https://stock-due-diligence.chatgpt-plugin.developer.mesprk.com/",
+    "supportURL": "https://stock-due-diligence.chatgpt-plugin.developer.mesprk.com/support/",
+    "privacyPolicyURL": "https://stock-due-diligence.chatgpt-plugin.developer.mesprk.com/privacy/",
+    "termsOfServiceURL": "https://stock-due-diligence.chatgpt-plugin.developer.mesprk.com/terms/",
+    "logo": "assets/icon.png",
+    "composerIcon": "assets/icon.png"
+  }
 }
