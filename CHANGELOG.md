@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.2 — MCP release candidate
+
+- Bumped the portable and Codex compatibility manifests to 1.0.2.
+- Added a remote Streamable HTTP MCP configuration for the hosted SEC EDGAR service.
+- Documented the four read-only SEC tools and release validation requirements.
+- Preserved the existing skill, website identity, support URL, privacy policy URL, and terms URL.
+- Release remains a candidate until the remote endpoint, domain challenge, tool discovery, and submission checks pass.
+
 ## 1.0.1 — 2026-10-23
 
 - Prepared a static public website with support, privacy, and terms pages under `site/`.
