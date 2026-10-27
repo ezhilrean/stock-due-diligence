@@ -1,10 +1,10 @@
 # GitHub-only static site and SEC refresh
 
-This adds a separate static research site under `site/`; it does not replace the existing plugin site, manifests, skill, or MCP server. The MCP server remains in `mcp_server/` as a future integration path.
+This adds a research dashboard at `site/research/index.html` and a scheduled SEC data refresh. It deliberately preserves the existing `site/index.html` homepage, plugin manifests, skill, and MCP server. The MCP server remains in `mcp_server/` as a future integration path.
 
 ## What is included
 
-- `site/index.html`: static research UI for company profile metadata, selected annual reported metrics, and recent SEC filings.
+- `site/research/index.html`: separate static research dashboard for company profile metadata, selected annual reported metrics, and recent SEC filings.
 - `config/watchlist.json`: tickers included in the static dataset.
 - `scripts/refresh_sec_data.py`: pulls public SEC company submissions and XBRL Company Facts.
 - `.github/workflows/refresh-sec-data.yml`: weekday scheduled refresh and manual workflow dispatch; commits updated `site/data/research.json`.
@@ -17,12 +17,12 @@ The initial watchlist is AAPL, MSFT, NVDA, AMZN, GOOGL, META, and TSLA. Edit `co
 2. Add a repository variable named `SEC_USER_AGENT`. Set its value to a descriptive application name and a real, monitored contact email, for example `StockDueDiligence contact@your-domain.example`. Replace the example with your real email. This is a contact identifier, not a secret.
 3. Open **Actions → Refresh SEC EDGAR research data → Run workflow** to test the refresh.
 4. Confirm that `site/data/research.json` was created or updated by the workflow.
-5. Enable Pages at **Settings → Pages** and choose **Deploy from a branch**, then branch `main` and folder `/site`. If your repository uses a custom domain or a different Pages source, review its current setting first and do not overwrite the existing website's DNS/custom domain.
-6. The website will be available at the repository's GitHub Pages URL, unless the Pages setting or custom domain points elsewhere.
+5. Review **Settings → Pages**. If the current site is already published from branch `main` and folder `/site`, keep that setting: the existing homepage remains at the root and the new dashboard will be available at `/research/` on the same site. Do not replace an existing custom domain or change DNS settings just for this dashboard.
+6. If Pages is not yet configured, choose **Deploy from a branch**, branch `main`, folder `/site`. Check the existing custom-domain and Pages configuration before saving changes.
 
 ## Scheduled refresh
 
-The workflow runs at 12:20 UTC on weekdays (20:20 Singapore time). GitHub scheduled workflows can be delayed and are not guaranteed to run at an exact minute. You can also start it manually from the Actions tab.
+The workflow runs at 12:20 UTC on weekdays (20:20 Singapore time). GitHub scheduled workflows can be delayed and are not guaranteed to run at an exact minute. You can also start it manually from the Actions tab. Scheduled workflows run from the repository's default branch, so merge these files into the default branch before expecting the schedule to run.
 
 ## Important limitations
 
