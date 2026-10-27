@@ -40,6 +40,9 @@
         "termsOfServiceURL": "https://stock-due-diligence.chatgpt-plugin.developer.mesprk.com/terms/",
         "logo": "assets/icon.png",
         "composerIcon": "assets/icon.png"
+      },
+      "review": {
+        "demo_recording_url": "https://www.youtube.com/watch?v=ZD3N1Qic7tY"
       }
     }
   }
