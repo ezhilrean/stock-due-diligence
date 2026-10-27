@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "stock-due-diligence",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Evidence-based stock due diligence covering company fundamentals, financial health, legal and regulatory exposure, fraud and transparency risks, cybersecurity, governance, valuation, and downside scenarios.",
   "author": {
     "name": "ezhillarasan ramalingham"
@@ -45,7 +45,7 @@
         "demo_recording_url": "https://www.youtube.com/watch?v=ZD3N1Qic7tY"
       },
       "publication": {
-        "release_notes": "Version 1.0.3: Improves the read-only SEC EDGAR workflow, identity resolution, financial-concept alias handling, filing period and unit reporting, primary-source verification, and missing-data caveats. Preserves all existing plugin capabilities, full diligence skill/references, website links, and checklist scope. Includes five positive reviewer prompts; MCP regression scenarios are maintained in mcp.json and the test-case documentation."
+        "release_notes": "Version 1.0.4: Carries forward the SEC EDGAR workflow improvements from 1.0.3, including identity resolution, financial-concept alias handling, filing-period and unit reporting, primary-source verification, and missing-data caveats. Preserves the full diligence skill and references, website links, and checklist scope. Includes five positive and three negative MCP review cases with schema-correct tool declarations. The uploaded private plugin release was automatically advanced to 1.0.4; public submission and approval remain pending."
       }
     }
   },
