@@ -2,7 +2,7 @@
 
 Version-controlled source for the Stock Due Diligence ChatGPT plugin package.
 
-- Plugin package version: `1.0.3` (release candidate; publication status must be confirmed in the Developer Portal)
+- Plugin package version: `1.0.4` (release candidate; publication status must be confirmed in the Developer Portal)
 - Current plugin listing: https://chatgpt.com/plugins/plugins_6adbfa1c18e88191bbc6fa153a003af0
 - Repository: https://github.com/ezhilrean/stock-due-diligence
 - Active development branch: `feature/sec-edgar-improvements`
@@ -37,3 +37,6 @@ Run `python scripts/build_plugin_zip.py` from a checkout of `feature/sec-edgar-i
 The package includes the full `skills/stock-due-diligence/` tree—including `checklist.md`, `definition-of-done.md`, `deliverable-template.md`, `playbook.md`, and `research-standards.md`—plus both manifests, MCP configuration, icons, README/changelog, and SEC usage/test documentation. The GitHub Actions workflow also uploads the validated ZIP as a build artifact on changes to this branch.
 
 This ZIP is a plugin upload package, not a full repository archive. Website source and the live MCP implementation remain in `ezhilrean/stock-due-diligence-web` on `feature/mcp-server`; nothing is deleted from either GitHub repository when these runtime files are not duplicated inside the upload ZIP. Confirm that the configured demo recording is accessible and demonstrates this release before portal submission.
+
+
+Current version: `1.0.4`. The existing private plugin draft has been updated. Public submission, approval, and public-directory publication remain separate steps and are not implied by this private update.
