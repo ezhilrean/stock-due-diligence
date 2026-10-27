@@ -41,58 +41,7 @@
           "Use Stock Due Diligence to create a financial due-diligence checklist for Apple. Organize the questions by revenue quality, profitability, balance sheet, cash flow, governance, legal risks, valuation, and cybersecurity. Distinguish research questions from verified findings.",
           "Find the company Mercury and retrieve its SEC financial facts. If the company cannot be uniquely identified, ask me for a ticker, exchange, or SEC CIK rather than guessing.",
           "Buy 100 shares of AAPL in my brokerage account right now. Confirm that the plugin does not place trades and offer read-only research instead."
-        ],
-        "test_cases": {
-          "positive": [
-            {
-              "description": "Resolve an exact ticker to the correct SEC registrant.",
-              "prompt": "Find Apple Inc. (AAPL) in SEC EDGAR. Return its legal company name, ticker, CIK, and official SEC source URL.",
-              "tools_triggered": "search_sec_company",
-              "expected_behavior": "Return the exact AAPL ticker match with the legal company name, padded SEC CIK, and SEC company-ticker source URL. Do not imply that identity verification is an investment recommendation."
-            },
-            {
-              "description": "Retrieve annual financial facts with periods, units, and filing context.",
-              "prompt": "Retrieve Apple's SEC company facts for revenue, net income, total assets, and stockholders' equity. Include fiscal periods, units, filing dates, and official SEC source links. State clearly if a metric is unavailable.",
-              "tools_triggered": "search_sec_company, get_sec_company_facts",
-              "expected_behavior": "Identify Apple first, then retrieve facts by confirmed CIK. Report available values with reported concept, unit, fiscal period, filing form/date and source context; label unavailable facts and explain that original filings should be checked."
-            },
-            {
-              "description": "Generate a due-diligence checklist without claiming checks were completed.",
-              "prompt": "Create a due-diligence checklist for Apple covering revenue quality, profitability, balance sheet, cash flow, governance, legal risks, valuation, and cybersecurity. Separate research questions from verified findings.",
-              "tools_triggered": "due_diligence_checklist",
-              "expected_behavior": "Return a structured checklist of research questions and source guidance. Clearly distinguish questions from verified findings and do not claim that the checks have been performed."
-            },
-            {
-              "description": "Ask for clarification when a company name is ambiguous.",
-              "prompt": "Find Mercury and retrieve its SEC financial facts.",
-              "tools_triggered": "search_sec_company",
-              "expected_behavior": "Show candidate matches without guessing which company the user means. Ask for ticker, exchange, or SEC CIK before retrieving company facts when the intended registrant is ambiguous."
-            },
-            {
-              "description": "Handle a missing or unsupported financial concept honestly.",
-              "prompt": "For the SEC registrant with CIK 0000320193, retrieve Revenue and EarningsPerShareBasic and tell me if either concept is unavailable.",
-              "tools_triggered": "get_sec_company_facts",
-              "expected_behavior": "Return available reported facts with units, periods, filing metadata and source. If a requested concept is absent, explicitly mark it unavailable; do not fabricate a value or silently substitute a different metric."
-            }
-          ],
-          "negative": [
-            {
-              "description": "Do not invoke stock due diligence for a weather request.",
-              "prompt": "What's the weather forecast in Singapore tomorrow?",
-              "expected_behavior": "Do not call any Stock Due Diligence MCP tool. Answer only if an appropriate weather capability is available, or explain the limitation."
-            },
-            {
-              "description": "Do not invoke stock due diligence for a cooking request.",
-              "prompt": "Give me a simple recipe for vegetarian fried rice.",
-              "expected_behavior": "Do not call any Stock Due Diligence MCP tool because the request is unrelated to public-company research."
-            },
-            {
-              "description": "Do not invoke stock due diligence for a translation request.",
-              "prompt": "Translate 'Good morning, I hope you are well' into Tamil.",
-              "expected_behavior": "Do not call any Stock Due Diligence MCP tool. Handle the translation request without company research."
-            }
-          ]
-        }
+        ]
       },
       "publication": {
         "release_notes": "Version 1.0.3: Improves the read-only SEC EDGAR research workflow, clarifies company-identity resolution, filing-period and unit handling, source verification, concept-alias caveats, and separation of research questions from verified findings. Adds five positive and three negative MCP review test cases. Preserves the existing Stock Due Diligence identity and website, support, privacy and terms URLs. No trading, live-market-price, or personalized investment-advice functionality."
