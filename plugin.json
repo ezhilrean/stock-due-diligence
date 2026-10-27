@@ -44,7 +44,7 @@
         ]
       },
       "publication": {
-        "release_notes": "Version 1.0.3: Improves the read-only SEC EDGAR research workflow, clarifies company-identity resolution, filing-period and unit handling, source verification, concept-alias caveats, and separation of research questions from verified findings. Adds five positive and three negative MCP review test cases. Preserves the existing Stock Due Diligence identity and website, support, privacy and terms URLs. No trading, live-market-price, or personalized investment-advice functionality."
+        "release_notes": "Version 1.0.3: Improves the read-only SEC EDGAR workflow, identity resolution, financial-concept alias handling, filing period and unit reporting, primary-source verification, and missing-data caveats. Preserves all existing plugin capabilities, full diligence skill/references, website links, and checklist scope. Includes five positive reviewer prompts; MCP regression scenarios are maintained in mcp.json and the test-case documentation."
       }
     }
   },
