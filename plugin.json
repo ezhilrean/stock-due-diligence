@@ -38,11 +38,14 @@
         "prompts": [
           "Use Stock Due Diligence to find Apple Inc. (AAPL) in SEC EDGAR. Show its official company name, ticker, CIK, and source link.",
           "Using Stock Due Diligence, retrieve Apple's SEC company facts. Summarize the latest available revenue, net income, total assets, and stockholders' equity. Include reporting periods, units, and official SEC source links. State clearly if a metric is unavailable.",
-          "Use Stock Due Diligence to create a financial due-diligence checklist for Apple. Organize the questions by revenue quality, profitability, balance sheet, cash flow, governance, legal risks, valuation, and cybersecurity. Distinguish research questions from verified findings."
-        ]
+          "Use Stock Due Diligence to create a financial due-diligence checklist for Apple. Organize the questions by revenue quality, profitability, balance sheet, cash flow, governance, legal risks, valuation, and cybersecurity. Distinguish research questions from verified findings.",
+          "Find the company Mercury and retrieve its SEC financial facts. If the company cannot be uniquely identified, ask me for a ticker, exchange, or SEC CIK rather than guessing.",
+          "Buy 100 shares of AAPL in my brokerage account right now. Confirm that the plugin does not place trades and offer read-only research instead."
+        ],
+        "demo_recording_url": "https://www.youtube.com/watch?v=ZD3N1Qic7tY"
       },
       "publication": {
-        "release_notes": "Version 1.0.3: Improves the read-only SEC EDGAR research workflow, clarifies company-identity resolution, filing-period and unit handling, source verification, concept-alias caveats, and separation of research questions from verified findings. Preserves the existing Stock Due Diligence identity, website, support, privacy and terms URLs. No trading, live-market-price, or personalized investment-advice functionality."
+        "release_notes": "Version 1.0.3: Improves the read-only SEC EDGAR workflow, identity resolution, financial-concept alias handling, filing period and unit reporting, primary-source verification, and missing-data caveats. Preserves all existing plugin capabilities, full diligence skill/references, website links, and checklist scope. Includes five positive reviewer prompts; MCP regression scenarios are maintained in mcp.json and the test-case documentation."
       }
     }
   },

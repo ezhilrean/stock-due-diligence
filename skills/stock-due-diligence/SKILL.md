@@ -45,6 +45,7 @@ When the connected Stock Due Diligence MCP tools are available, use them for US 
 4. State clearly when a concept is unavailable, not comparable, or may be industry-specific. Never silently substitute a different metric. Explain whether a value is a duration measure (income/cash flow) or instant measure (balance sheet).
 5. Treat SEC data as issuer-reported disclosures, not independent audit assurance. Cite SEC URLs and filing dates next to claims. Do not infer current market price, valuation multiples, or guaranteed returns from SEC company facts alone.
 6. Use `due_diligence_checklist` to create research questions, not to claim the checks were completed. Keep verified findings separate from open questions and proposed research.
+7. If the request is to place a trade or access a brokerage account, explain that these tools are read-only and do not place orders or execute transactions.
 
 If the MCP tools are unavailable, state that the tool-backed lookup was not performed and continue only with sources actually accessible in the current session. Do not claim a successful SEC lookup based solely on memory.
 
@@ -96,4 +97,4 @@ These are research labels, not guaranteed buy/sell instructions.
 
 ## Review metadata
 
-Include workflow version `1.0.2` in the report metadata or notes when useful. Include the analysis as-of date and dates of key sources.
+Include workflow version `1.0.3` in the report metadata or notes when useful. Include the analysis as-of date and dates of key sources.
