@@ -8,51 +8,51 @@
         "test_cases": {
           "positive": [
             {
-              "description": "Resolve a ticker to the exact SEC registrant.",
-              "prompt": "Find Apple Inc. (AAPL) in SEC EDGAR and return official name, ticker, CIK, and source URL.",
+              "description": "Resolve an exact ticker to the correct SEC registrant.",
+              "prompt": "Find Apple Inc. (AAPL) in SEC EDGAR. Return its legal company name, ticker, CIK, and official SEC source URL.",
               "tools_triggered": "search_sec_company",
-              "expected_behavior": "Prefer exact ticker matches; return the legal name, padded CIK and official SEC source URL."
+              "expected_behavior": "Return the exact AAPL ticker match with the legal company name, padded SEC CIK, and SEC company-ticker source URL. Do not imply that identity verification is an investment recommendation."
             },
             {
-              "description": "Retrieve financial facts with units and filing context.",
-              "prompt": "Retrieve Apple's SEC company facts for revenue, net income, assets and stockholders' equity. Include periods, units, filing dates and sources; state unavailable metrics explicitly.",
+              "description": "Retrieve annual financial facts with periods, units, and filing context.",
+              "prompt": "Retrieve Apple's SEC company facts for revenue, net income, total assets, and stockholders' equity. Include fiscal periods, units, filing dates, and official SEC source links. State clearly if a metric is unavailable.",
               "tools_triggered": "search_sec_company, get_sec_company_facts",
-              "expected_behavior": "Resolve identity before facts. Preserve reported concept, units, fiscal periods and filing metadata; disclose unavailable concepts and caveats."
+              "expected_behavior": "Identify Apple first, then retrieve facts by confirmed CIK. Report available values with reported concept, unit, fiscal period, filing form/date and source context; label unavailable facts and explain that original filings should be checked."
             },
             {
-              "description": "Generate checklist without implying completed diligence.",
-              "prompt": "Create a due diligence checklist for Apple covering revenue quality, profitability, balance sheet, cash flow, governance, legal risks, valuation and cybersecurity.",
+              "description": "Generate a due-diligence checklist without claiming checks were completed.",
+              "prompt": "Create a due-diligence checklist for Apple covering revenue quality, profitability, balance sheet, cash flow, governance, legal risks, valuation, and cybersecurity. Separate research questions from verified findings.",
               "tools_triggered": "due_diligence_checklist",
-              "expected_behavior": "Provide research questions and source guidance, distinguishing the checklist from verified company findings."
+              "expected_behavior": "Return a structured checklist of research questions and source guidance. Clearly distinguish questions from verified findings and do not claim that the checks have been performed."
             },
             {
-              "description": "Clarify an ambiguous company name.",
+              "description": "Ask for clarification when a company name is ambiguous.",
               "prompt": "Find Mercury and retrieve its SEC financial facts.",
               "tools_triggered": "search_sec_company",
-              "expected_behavior": "Present possible registrants and ask for ticker, exchange or CIK before facts retrieval when identity remains ambiguous."
+              "expected_behavior": "Show candidate matches without guessing which company the user means. Ask for ticker, exchange, or SEC CIK before retrieving company facts when the intended registrant is ambiguous."
             },
             {
-              "description": "Handle unsupported metrics without fabrication.",
-              "prompt": "For SEC CIK 0000320193, retrieve Revenue and EarningsPerShareBasic; state if either is unavailable.",
+              "description": "Handle a missing or unsupported financial concept honestly.",
+              "prompt": "For the SEC registrant with CIK 0000320193, retrieve Revenue and EarningsPerShareBasic and tell me if either concept is unavailable.",
               "tools_triggered": "get_sec_company_facts",
-              "expected_behavior": "Return available facts and units/period metadata. Explicitly mark missing concepts; never fabricate a value or silently substitute a metric."
+              "expected_behavior": "Return available reported facts with units, periods, filing metadata and source. If a requested concept is absent, explicitly mark it unavailable; do not fabricate a value or silently substitute a different metric."
             }
           ],
           "negative": [
             {
-              "description": "No stock tools for weather.",
+              "description": "Do not invoke stock due diligence for a weather request.",
               "prompt": "What's the weather forecast in Singapore tomorrow?",
-              "expected_behavior": "Do not invoke any Stock Due Diligence MCP tool."
+              "expected_behavior": "Do not call any Stock Due Diligence MCP tool. Answer only if an appropriate weather capability is available, or explain the limitation."
             },
             {
-              "description": "No stock tools for cooking.",
+              "description": "Do not invoke stock due diligence for a cooking request.",
               "prompt": "Give me a simple recipe for vegetarian fried rice.",
-              "expected_behavior": "Do not invoke any Stock Due Diligence MCP tool."
+              "expected_behavior": "Do not call any Stock Due Diligence MCP tool because the request is unrelated to public-company research."
             },
             {
-              "description": "No stock tools for translation.",
+              "description": "Do not invoke stock due diligence for a translation request.",
               "prompt": "Translate 'Good morning, I hope you are well' into Tamil.",
-              "expected_behavior": "Do not invoke any Stock Due Diligence MCP tool."
+              "expected_behavior": "Do not call any Stock Due Diligence MCP tool. Handle the translation request without company research."
             }
           ]
         }
