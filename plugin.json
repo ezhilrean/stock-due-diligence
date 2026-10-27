@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "stock-due-diligence",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Evidence-based stock due diligence covering company fundamentals, financial health, legal and regulatory exposure, fraud and transparency risks, cybersecurity, governance, valuation, and downside scenarios.",
   "author": {
     "name": "ezhillarasan ramalingham"
@@ -42,7 +42,7 @@
         ]
       },
       "publication": {
-        "release_notes": "Version 1.0.1: Added public website/support/privacy/terms page source and deployment configuration, an icon asset, updated listing URLs, and documented a deferred commerce implementation plan. Commerce is not implemented in this release."
+        "release_notes": "Version 1.0.2: Adds a read-only SEC EDGAR MCP connection for company search, company profiles, recent filing metadata, and selected SEC XBRL company facts. Retains the existing Stock Due Diligence skill and public website/policy URLs. SEC data are source disclosures, not independently audited; no trading, market-price, or personalized investment-advice functionality is provided."
       }
     }
   },
