@@ -35,6 +35,19 @@ Use this skill when asked to:
 11. **Document the evidence.** Attach sources and dates to material claims. Distinguish facts, allegations, analysis, and unknowns. Never invent sources, searches, citations, figures, case numbers, or assumptions.
 12. **Run the definition of done.** Check `references/definition-of-done.md` before delivering. Follow `references/playbook.md`, use `references/checklist.md`, `references/deliverable-template.md`, and `references/research-standards.md` as supporting controls.
 
+## SEC EDGAR MCP workflow (read-only)
+
+When the connected Stock Due Diligence MCP tools are available, use them for US public registrants before relying on secondary summaries:
+
+1. Call `search_sec_company` with the ticker or full legal company name. Prefer an exact ticker or exact legal-name match. If multiple plausible entities remain, ask the user for ticker, exchange, or SEC CIK; never select an entity by guesswork. Record the SEC CIK and official source URL.
+2. Call `get_sec_company_facts` using the confirmed CIK. For requested metrics, preserve the reported concept name, fiscal year, period end, unit, form, filing date, and accession number when returned. The tool may check common US-GAAP aliases for revenue; verify the chosen concept and original filing context.
+3. Use SEC filing documents or the SEC filing index for context where needed. Company Facts is a structured data API, not a substitute for reading the original filing, footnotes, segment disclosures, or accounting policies.
+4. State clearly when a concept is unavailable, not comparable, or may be industry-specific. Never silently substitute a different metric. Explain whether a value is a duration measure (income/cash flow) or instant measure (balance sheet).
+5. Treat SEC data as issuer-reported disclosures, not independent audit assurance. Cite SEC URLs and filing dates next to claims. Do not infer current market price, valuation multiples, or guaranteed returns from SEC company facts alone.
+6. Use `due_diligence_checklist` to create research questions, not to claim the checks were completed. Keep verified findings separate from open questions and proposed research.
+
+If the MCP tools are unavailable, state that the tool-backed lookup was not performed and continue only with sources actually accessible in the current session. Do not claim a successful SEC lookup based solely on memory.
+
 ## Evidence and research standards
 
 - Prefer primary sources and cite sources close to the claims they support.
