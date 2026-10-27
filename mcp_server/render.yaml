@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: stock-due-diligence-sec-mcp
+    runtime: docker
+    dockerfilePath: ./mcp_server/Dockerfile
+    dockerContext: .
+    envVars:
+      - key: SEC_USER_AGENT
+        sync: false
+      - key: PORT
+        value: "8000"
