@@ -13,7 +13,7 @@
     ]
   },
   "name": "stock-due-diligence",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Evidence-based stock due diligence covering company fundamentals, financial health, legal and regulatory exposure, fraud and transparency risks, cybersecurity, governance, valuation, and downside scenarios.",
   "author": {
     "name": "ezhillarasan ramalingham"
@@ -31,7 +31,7 @@
   "extensions": {
     "com.openai": {
       "publication": {
-        "release_notes": "Version 1.0.1: Public listing metadata, website/support/privacy/terms pages, icon, and deployment instructions prepared. Commerce is deferred and not implemented in this release."
+        "release_notes": "Version 1.0.2: Adds a read-only SEC EDGAR MCP connection for company search, company profiles, recent filing metadata, and selected SEC XBRL company facts. Retains the existing Stock Due Diligence skill and public website/policy URLs. SEC data are source disclosures, not independently audited; no trading, market-price, or personalized investment-advice functionality is provided."
       },
       "interface": {
         "websiteURL": "https://stock-due-diligence.chatgpt-plugin.developer.mesprk.com/",
