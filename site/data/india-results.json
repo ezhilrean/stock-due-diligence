@@ -1,6 +1,26 @@
 {
-  "generated_at": null,
-  "source_policy": "No Indian financial results imported yet. Populate from reviewed official filings using scripts/import_india_results.py.",
-  "record_count": 0,
-  "results": []
+  "generated_at": "2026-10-28T00:00:00+00:00",
+  "source_policy": "Figures entered from the issuer's Q1 FY2027 financial results and cross-checked against the NSE integrated filing. Amounts are in ₹ crore except EPS (₹ per share). Unaudited quarter.",
+  "record_count": 1,
+  "results": [
+    {
+      "symbol": "RELIANCE",
+      "company_name": "Reliance Industries Limited",
+      "period_end": "2026-06-30",
+      "period_type": "quarterly",
+      "basis": "consolidated",
+      "units": "₹ crore",
+      "filing_date": "2026-07-17",
+      "source_title": "NSE Integrated Filing — IndAS, Reliance Industries Limited, Q1 FY2027",
+      "source_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_175608_17072026195004_iXBRL_WEB.html",
+      "revenue": 311850,
+      "operating_profit": 54067,
+      "profit_after_tax": 23196,
+      "eps": 15.48,
+      "total_assets": null,
+      "total_debt": 369705,
+      "cash_and_equivalents": 246791,
+      "operating_cash_flow": null
+    }
+  ]
 }
