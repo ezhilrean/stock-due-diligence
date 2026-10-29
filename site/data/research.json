@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T12:33:26.999183+00:00",
+  "generated_at": "2026-10-29T12:34:08.134484+00:00",
   "source": "U.S. SEC EDGAR public submissions and XBRL companyfacts",
   "companies": [
     {
@@ -183,6 +183,30 @@
       "sec_url": "https://www.sec.gov/edgar/browse/?CIK=0000789019",
       "filings": [
         {
+          "form": "8-K",
+          "filing_date": "2026-10-28",
+          "report_date": "2026-10-28",
+          "description": "8-K",
+          "accession_number": "0001193125-26-436149",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436149/msft-20261028.htm"
+        },
+        {
+          "form": "10-Q",
+          "filing_date": "2026-10-28",
+          "report_date": "2026-09-30",
+          "description": "10-Q",
+          "accession_number": "0001193125-26-436133",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm"
+        },
+        {
+          "form": "8-K",
+          "filing_date": "2026-10-28",
+          "report_date": "2026-10-28",
+          "description": "8-K",
+          "accession_number": "0001193125-26-436122",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436122/msft-20261028.htm"
+        },
+        {
           "form": "DEF 14A",
           "filing_date": "2026-10-21",
           "report_date": "2026-12-08",
@@ -253,30 +277,6 @@
           "description": "STATEMENT OF CHANGES IN BENEFICIAL OWNERSHIP OF SECURITIES",
           "accession_number": "0000789019-26-000214",
           "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000214/xslF345X06/form4.xml"
-        },
-        {
-          "form": "4",
-          "filing_date": "2026-09-15",
-          "report_date": "2026-09-15",
-          "description": "STATEMENT OF CHANGES IN BENEFICIAL OWNERSHIP OF SECURITIES",
-          "accession_number": "0000789019-26-000213",
-          "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000213/xslF345X06/form4.xml"
-        },
-        {
-          "form": "4",
-          "filing_date": "2026-09-15",
-          "report_date": "2026-09-14",
-          "description": "STATEMENT OF CHANGES IN BENEFICIAL OWNERSHIP OF SECURITIES",
-          "accession_number": "0000789019-26-000212",
-          "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000212/xslF345X06/form4.xml"
-        },
-        {
-          "form": "4",
-          "filing_date": "2026-09-11",
-          "report_date": "2026-09-10",
-          "description": "STATEMENT OF CHANGES IN BENEFICIAL OWNERSHIP OF SECURITIES",
-          "accession_number": "0000789019-26-000208",
-          "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000208/xslF345X06/form4.xml"
         }
       ],
       "metrics": {
@@ -684,6 +684,22 @@
       "sec_url": "https://www.sec.gov/edgar/browse/?CIK=0001652044",
       "filings": [
         {
+          "form": "10-Q",
+          "filing_date": "2026-10-29",
+          "report_date": "2026-09-30",
+          "description": "10-Q",
+          "accession_number": "0001652044-26-000084",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm"
+        },
+        {
+          "form": "8-K",
+          "filing_date": "2026-10-28",
+          "report_date": "2026-10-28",
+          "description": "8-K",
+          "accession_number": "0001652044-26-000080",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/goog-20261028.htm"
+        },
+        {
           "form": "4",
           "filing_date": "2026-10-27",
           "report_date": "2026-10-25",
@@ -762,22 +778,6 @@
           "description": "4",
           "accession_number": "0001193125-26-408016",
           "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526408016/xslF345X06/ownership.xml"
-        },
-        {
-          "form": "4",
-          "filing_date": "2026-09-29",
-          "report_date": "2026-09-25",
-          "description": "4",
-          "accession_number": "0001193125-26-408014",
-          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526408014/xslF345X06/ownership.xml"
-        },
-        {
-          "form": "4",
-          "filing_date": "2026-09-29",
-          "report_date": "2026-09-25",
-          "description": "4",
-          "accession_number": "0001193125-26-408009",
-          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526408009/xslF345X06/ownership.xml"
         }
       ],
       "metrics": {
@@ -853,6 +853,22 @@
       "website": "",
       "sec_url": "https://www.sec.gov/edgar/browse/?CIK=0001326801",
       "filings": [
+        {
+          "form": "4",
+          "filing_date": "2026-10-28",
+          "report_date": "2026-10-26",
+          "description": "FORM 4",
+          "accession_number": "0000950103-26-016314",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326016314/xslF345X06/ownership.xml"
+        },
+        {
+          "form": "4",
+          "filing_date": "2026-10-28",
+          "report_date": "2026-10-26",
+          "description": "FORM 4",
+          "accession_number": "0000950103-26-016313",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326016313/xslF345X06/ownership.xml"
+        },
         {
           "form": "10-Q",
           "filing_date": "2026-10-22",
@@ -932,22 +948,6 @@
           "description": "FORM 4",
           "accession_number": "0000950103-26-014140",
           "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326014140/xslF345X06/ownership.xml"
-        },
-        {
-          "form": "4",
-          "filing_date": "2026-09-16",
-          "report_date": "2026-09-14",
-          "description": "FORM 4",
-          "accession_number": "0000950103-26-014061",
-          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326014061/xslF345X06/ownership.xml"
-        },
-        {
-          "form": "4",
-          "filing_date": "2026-09-11",
-          "report_date": "2026-09-09",
-          "description": "FORM 4",
-          "accession_number": "0000950103-26-013860",
-          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326013860/xslF345X06/ownership.xml"
         }
       ],
       "metrics": {
