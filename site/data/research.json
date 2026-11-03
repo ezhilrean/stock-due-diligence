@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T12:30:03.963359+00:00",
+  "generated_at": "2026-11-03T19:37:58.562151+00:00",
   "source": "U.S. SEC EDGAR public submissions and XBRL companyfacts",
   "companies": [
     {
@@ -12,6 +12,22 @@
       "website": "",
       "sec_url": "https://www.sec.gov/edgar/browse/?CIK=0000320193",
       "filings": [
+        {
+          "form": "10-K",
+          "filing_date": "2026-11-03",
+          "report_date": "2026-09-26",
+          "description": "10-K",
+          "accession_number": "0000320193-26-000026",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/aapl-20260926.htm"
+        },
+        {
+          "form": "8-K",
+          "filing_date": "2026-11-02",
+          "report_date": "2026-11-02",
+          "description": "8-K",
+          "accession_number": "0000320193-26-000024",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000024/aapl-20261102.htm"
+        },
         {
           "form": "4",
           "filing_date": "2026-10-29",
@@ -91,22 +107,6 @@
           "description": "FORM 4",
           "accession_number": "0001140361-26-038667",
           "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126038667/xslF345X06/form4.xml"
-        },
-        {
-          "form": "4",
-          "filing_date": "2026-10-01",
-          "report_date": "2026-09-29",
-          "description": "FORM 4",
-          "accession_number": "0001140361-26-038307",
-          "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126038307/xslF345X06/form4.xml"
-        },
-        {
-          "form": "4",
-          "filing_date": "2026-09-29",
-          "report_date": "2026-09-27",
-          "description": "FORM 4",
-          "accession_number": "0001140361-26-038028",
-          "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126038028/xslF345X06/form4.xml"
         }
       ],
       "metrics": {
@@ -114,61 +114,61 @@
           "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
           "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
           "unit": "USD",
-          "value": 416161000000,
-          "period_end": "2025-09-27",
-          "filed": "2025-10-31",
+          "value": 478834000000,
+          "period_end": "2026-09-26",
+          "filed": "2026-11-03",
           "form": "10-K",
-          "accession_number": "0000320193-25-000079"
+          "accession_number": "0000320193-26-000026"
         },
         "net_income": {
           "concept": "NetIncomeLoss",
           "label": "Net Income (Loss) Attributable to Parent",
           "unit": "USD",
-          "value": 112010000000,
-          "period_end": "2025-09-27",
-          "filed": "2025-10-31",
+          "value": 132175000000,
+          "period_end": "2026-09-26",
+          "filed": "2026-11-03",
           "form": "10-K",
-          "accession_number": "0000320193-25-000079"
+          "accession_number": "0000320193-26-000026"
         },
         "total_assets": {
           "concept": "Assets",
           "label": "Assets",
           "unit": "USD",
-          "value": 359241000000,
-          "period_end": "2025-09-27",
-          "filed": "2025-10-31",
+          "value": 404548000000,
+          "period_end": "2026-09-26",
+          "filed": "2026-11-03",
           "form": "10-K",
-          "accession_number": "0000320193-25-000079"
+          "accession_number": "0000320193-26-000026"
         },
         "total_liabilities": {
           "concept": "Liabilities",
           "label": "Liabilities",
           "unit": "USD",
-          "value": 285508000000,
-          "period_end": "2025-09-27",
-          "filed": "2025-10-31",
+          "value": 292455000000,
+          "period_end": "2026-09-26",
+          "filed": "2026-11-03",
           "form": "10-K",
-          "accession_number": "0000320193-25-000079"
+          "accession_number": "0000320193-26-000026"
         },
         "cash_and_equivalents": {
           "concept": "CashAndCashEquivalentsAtCarryingValue",
           "label": "Cash and Cash Equivalents, at Carrying Value",
           "unit": "USD",
-          "value": 35934000000,
-          "period_end": "2025-09-27",
-          "filed": "2025-10-31",
+          "value": 36305000000,
+          "period_end": "2026-09-26",
+          "filed": "2026-11-03",
           "form": "10-K",
-          "accession_number": "0000320193-25-000079"
+          "accession_number": "0000320193-26-000026"
         },
         "operating_cash_flow": {
           "concept": "NetCashProvidedByUsedInOperatingActivities",
           "label": "Net Cash Provided by (Used in) Operating Activities",
           "unit": "USD",
-          "value": 111482000000,
-          "period_end": "2025-09-27",
-          "filed": "2025-10-31",
+          "value": 145097000000,
+          "period_end": "2026-09-26",
+          "filed": "2026-11-03",
           "form": "10-K",
-          "accession_number": "0000320193-25-000079"
+          "accession_number": "0000320193-26-000026"
         }
       }
     },
