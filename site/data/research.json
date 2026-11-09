@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T19:32:21.042147+00:00",
+  "generated_at": "2026-11-09T22:30:22.574956+00:00",
   "source": "U.S. SEC EDGAR public submissions and XBRL companyfacts",
   "companies": [
     {
@@ -12,6 +12,14 @@
       "website": "",
       "sec_url": "https://www.sec.gov/edgar/browse/?CIK=0000320193",
       "filings": [
+        {
+          "form": "8-K",
+          "filing_date": "2026-11-09",
+          "report_date": "2026-11-05",
+          "description": "",
+          "accession_number": "0001140361-26-042798",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126042798/ef20085077_8k.htm"
+        },
         {
           "form": "4",
           "filing_date": "2026-11-05",
@@ -99,14 +107,6 @@
           "description": "FORM 4",
           "accession_number": "0001140361-26-038672",
           "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126038672/xslF345X06/form4.xml"
-        },
-        {
-          "form": "4",
-          "filing_date": "2026-10-05",
-          "report_date": "2026-10-01",
-          "description": "FORM 4",
-          "accession_number": "0001140361-26-038669",
-          "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126038669/xslF345X06/form4.xml"
         }
       ],
       "metrics": {
@@ -354,6 +354,14 @@
       "filings": [
         {
           "form": "4",
+          "filing_date": "2026-11-06",
+          "report_date": "2026-11-04",
+          "description": "FORM 4",
+          "accession_number": "0001197647-26-000013",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119764726000013/xslF345X06/wk-form4_1793999520.xml"
+        },
+        {
+          "form": "4",
           "filing_date": "2026-10-09",
           "report_date": "2026-10-07",
           "description": "FORM 4",
@@ -439,14 +447,6 @@
           "description": "FORM 4",
           "accession_number": "0001197647-26-000009",
           "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119764726000009/xslF345X06/wk-form4_1788555631.xml"
-        },
-        {
-          "form": "8-K",
-          "filing_date": "2026-09-03",
-          "report_date": "2026-09-02",
-          "description": "8-K",
-          "accession_number": "0001045810-26-000078",
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078/nvda-20260902.htm"
         }
       ],
       "metrics": {
@@ -854,6 +854,14 @@
       "sec_url": "https://www.sec.gov/edgar/browse/?CIK=0001326801",
       "filings": [
         {
+          "form": "4",
+          "filing_date": "2026-11-06",
+          "report_date": "2026-11-04",
+          "description": "FORM 4",
+          "accession_number": "0000950103-26-017123",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326017123/xslF345X06/ownership.xml"
+        },
+        {
           "form": "8-K",
           "filing_date": "2026-11-05",
           "report_date": "2026-11-03",
@@ -940,14 +948,6 @@
           "description": "FORM 4",
           "accession_number": "0000950103-26-015324",
           "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326015324/xslF345X06/ownership.xml"
-        },
-        {
-          "form": "4",
-          "filing_date": "2026-09-30",
-          "report_date": "2026-09-28",
-          "description": "FORM 4",
-          "accession_number": "0000950103-26-014886",
-          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326014886/xslF345X06/ownership.xml"
         }
       ],
       "metrics": {
