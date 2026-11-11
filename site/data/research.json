@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T19:51:38.857063+00:00",
+  "generated_at": "2026-11-11T19:43:17.789200+00:00",
   "source": "U.S. SEC EDGAR public submissions and XBRL companyfacts",
   "companies": [
     {
@@ -184,6 +184,14 @@
       "filings": [
         {
           "form": "4",
+          "filing_date": "2026-11-10",
+          "report_date": "2026-11-09",
+          "description": "STATEMENT OF CHANGES IN BENEFICIAL OWNERSHIP OF SECURITIES",
+          "accession_number": "0000789019-26-000232",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000232/xslF345X06/form4.xml"
+        },
+        {
+          "form": "4",
           "filing_date": "2026-11-09",
           "report_date": "2026-11-06",
           "description": "STATEMENT OF CHANGES IN BENEFICIAL OWNERSHIP OF SECURITIES",
@@ -269,14 +277,6 @@
           "description": "STATEMENT OF CHANGES IN BENEFICIAL OWNERSHIP OF SECURITIES",
           "accession_number": "0000789019-26-000223",
           "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000223/xslF345X06/form4.xml"
-        },
-        {
-          "form": "4",
-          "filing_date": "2026-09-17",
-          "report_date": "2026-09-15",
-          "description": "STATEMENT OF CHANGES IN BENEFICIAL OWNERSHIP OF SECURITIES",
-          "accession_number": "0000789019-26-000222",
-          "url": "https://www.sec.gov/Archives/edgar/data/789019/000078901926000222/xslF345X06/form4.xml"
         }
       ],
       "metrics": {
