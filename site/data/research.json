@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T19:43:17.789200+00:00",
+  "generated_at": "2026-11-12T20:06:56.909004+00:00",
   "source": "U.S. SEC EDGAR public submissions and XBRL companyfacts",
   "companies": [
     {
@@ -353,6 +353,14 @@
       "sec_url": "https://www.sec.gov/edgar/browse/?CIK=0001045810",
       "filings": [
         {
+          "form": "8-K",
+          "filing_date": "2026-11-12",
+          "report_date": "2026-11-11",
+          "description": "8-K",
+          "accession_number": "0001045810-26-000082",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm"
+        },
+        {
           "form": "4",
           "filing_date": "2026-11-06",
           "report_date": "2026-11-04",
@@ -439,14 +447,6 @@
           "description": "FORM 4",
           "accession_number": "0001199039-26-000014",
           "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000014/xslF345X06/wk-form4_1788901755.xml"
-        },
-        {
-          "form": "4",
-          "filing_date": "2026-09-04",
-          "report_date": "2026-09-02",
-          "description": "FORM 4",
-          "accession_number": "0001197647-26-000009",
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119764726000009/xslF345X06/wk-form4_1788555631.xml"
         }
       ],
       "metrics": {
